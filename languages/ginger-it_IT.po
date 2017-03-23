@@ -1,0 +1,902 @@
+# Copyright (C) 2015 Automattic
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: _s 1.0.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tags/_s\n"
+"POT-Creation-Date: 2015-07-09 12:06+0100\n"
+"PO-Revision-Date: 2016-02-05 16:56+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: /var/www/sitolocale/wp-content/plugins/ginger\n"
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/addon/ginger.addon.utils.php:43
+msgid "Add-on"
+msgstr ""
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/addon/ginger.addon.utils.php:176
+msgid "Available Add-on"
+msgstr ""
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/addon/ginger.addon.utils.php:183
+#: /var/www/sitolocale/wp-content/plugins/ginger/addon/ginger.addon.utils.php:188
+msgid "Google Analytics"
+msgstr ""
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/addon/ginger.addon.utils.php:191
+msgid "It's FREE! Active it."
+msgstr ""
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/addon/ginger.addon.utils.php:193
+#: /var/www/sitolocale/wp-content/plugins/ginger/addon/ginger.addon.utils.php:235
+msgid "Add-on description."
+msgstr ""
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/addon/ginger.addon.utils.php:197
+#: /var/www/sitolocale/wp-content/plugins/ginger/addon/ginger.addon.utils.php:239
+msgid "Active add-on"
+msgstr ""
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/addon/ginger.addon.utils.php:209
+#: /var/www/sitolocale/wp-content/plugins/ginger/addon/ginger.addon.utils.php:251
+msgid "Deactivate"
+msgstr ""
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/addon/ginger.addon.utils.php:216
+#: /var/www/sitolocale/wp-content/plugins/ginger/addon/ginger.addon.utils.php:258
+msgid "Insert here the add-on activation code."
+msgstr ""
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/addon/ginger.addon.utils.php:217
+#: /var/www/sitolocale/wp-content/plugins/ginger/addon/ginger.addon.utils.php:259
+#, fuzzy
+msgid "Insert here your activation mail."
+msgstr "Inserisci qui il CSS personalizzato per il tuo banner"
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/addon/ginger.addon.utils.php:220
+#: /var/www/sitolocale/wp-content/plugins/ginger/addon/ginger.addon.utils.php:262
+msgid "Activate"
+msgstr ""
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/addon/ginger.addon.utils.php:229
+#: /var/www/sitolocale/wp-content/plugins/ginger/addon/ginger.addon.utils.php:233
+#: /var/www/sitolocale/wp-content/plugins/ginger/addon/privacy-policy-manager/ginger.privacy-policy-manager.php:11
+#, fuzzy
+msgid "Privacy Policy Manager"
+msgstr "Privacy Policy Page"
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/addon/analytics/ginger.analytics.php:11
+msgid "Ginger Analytics"
+msgstr ""
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/addon/analytics/ginger.analytics.php:62
+#: /var/www/sitolocale/wp-content/plugins/ginger/addon/privacy-policy-manager/ginger.privacy-policy-manager.php:65
+msgid "Impostazioni Add on"
+msgstr ""
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/addon/analytics/ginger.analytics.php:91
+msgid "Inserisci qui il tuo traking code"
+msgstr ""
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/addon/analytics/ginger.analytics.php:116
+#: /var/www/sitolocale/wp-content/plugins/ginger/addon/privacy-policy-manager/ginger.privacy-policy-manager.php:345
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/ginger.admin.php:93
+msgid "Save Changes"
+msgstr "Aggiorna"
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/addon/privacy-policy-manager/ginger.privacy-policy-manager.php:70
+#, fuzzy
+msgid "PPM crea la tua privacy policy page."
+msgstr "oppure crea la tua pagina privacy policy "
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/addon/privacy-policy-manager/ginger.privacy-policy-manager.php:75
+msgid "Informazioni Generali"
+msgstr ""
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/addon/privacy-policy-manager/ginger.privacy-policy-manager.php:83
+msgid "Nome Sito"
+msgstr ""
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/addon/privacy-policy-manager/ginger.privacy-policy-manager.php:93
+msgid "Titolare Sito"
+msgstr ""
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/addon/privacy-policy-manager/ginger.privacy-policy-manager.php:103
+msgid "Mail Titolare"
+msgstr ""
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/addon/privacy-policy-manager/ginger.privacy-policy-manager.php:117
+#, fuzzy
+msgid "Privacy Policy Default Text"
+msgstr "Privacy Policy Page"
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/addon/privacy-policy-manager/ginger.privacy-policy-manager.php:120
+msgid "Default Text Area"
+msgstr ""
+"<h2><b>Tipologie di Dati raccolti</b></h2>Il Titolare non fornisce una lista "
+"di tipologie di Dati Personali raccolti.Altri Dati Personali raccolti "
+"potrebbero essere indicati in altre sezioni di questa privacy policy o "
+"mediante testi informativi visualizzati contestualmente alla raccolta dei "
+"Dati stessi.I Dati Personali possono essere inseriti volontariamente "
+"dall’Utente, oppure raccolti in modo automatico durante l'uso di questa "
+"Applicazione.L’eventuale utilizzo di Cookie - o di altri strumenti di "
+"tracciamento - da parte di questa Applicazione o dei titolari dei servizi "
+"terzi utilizzati da questa Applicazione, ove non diversamente precisato, ha "
+"la finalità di identificare l’Utente e registrare le relative preferenze per "
+"finalità strettamente legate all'erogazione del servizio richiesto "
+"dall’Utente.Il mancato conferimento da parte dell’Utente di alcuni Dati "
+"Personali potrebbe impedire a questa Applicazione di erogare i propri "
+"servizi.L'Utente si assume la responsabilità dei Dati Personali di terzi "
+"pubblicati o condivisi mediante questa Applicazione e garantisce di avere il "
+"diritto di comunicarli o diffonderli, liberando il Titolare da qualsiasi "
+"responsabilità verso terzi.<h2><b>Modalità e luogo del trattamento dei Dati "
+"raccolti</b></h2><h4><b>Modalità di trattamento</b></h4>Il Titolare tratta i "
+"Dati Personali degli Utenti adottando le opportune misure di sicurezza volte "
+"ad impedire l’accesso, la divulgazione, la modifica o la distruzione non "
+"autorizzate dei Dati Personali.Il trattamento viene effettuato mediante "
+"strumenti informatici e/o telematici, con modalità organizzative e con "
+"logiche strettamente correlate alle finalità indicate. Oltre al Titolare, in "
+"alcuni casi, potrebbero avere accesso ai Dati categorie di incaricati "
+"coinvolti nell’organizzazione del sito (personale amministrativo, "
+"commerciale, marketing, legali, amministratori di sistema) ovvero soggetti "
+"esterni (come fornitori di servizi tecnici terzi, corrieri postali, hosting "
+"provider, società informatiche, agenzie di comunicazione) nominati anche, se "
+"necessario, Responsabili del Trattamento da parte del Titolare. L’elenco "
+"aggiornato dei Responsabili potrà sempre essere richiesto al Titolare del "
+"Trattamento.<h4><b>Luogo</b></h4>I Dati sono trattati presso le sedi "
+"operative del Titolare ed in ogni altro luogo in cui le parti coinvolte nel "
+"trattamento siano localizzate. Per ulteriori informazioni, contatta il "
+"Titolare.<h4><b>Tempi</b></h4>I Dati sono trattati per il tempo necessario "
+"allo svolgimento del servizio richiesto dall’Utente, o richiesto dalle "
+"finalità descritte in questo documento, e l’Utente può sempre chiedere "
+"l’interruzione del Trattamento o la cancellazione dei Dati.Ulteriori "
+"informazioni sul trattamento</b></h2><h4><b>Difesa in giudizio</b></h4>I "
+"Dati Personali dell’Utente possono essere utilizzati per la difesa da parte "
+"del Titolare in giudizio o nelle fasi propedeutiche alla sua eventuale "
+"instaurazione, da abusi nell'utilizzo della stessa o dei servizi connessi da "
+"parte dell’Utente.L’Utente dichiara di essere consapevole che il Titolare "
+"potrebbe essere richiesto di rivelare i Dati su richiesta delle pubbliche "
+"autorità.<h4><b>Informative specifiche</b></h4>Su richiesta dell’Utente, in "
+"aggiunta alle informazioni contenute in questa privacy policy, questa "
+"Applicazione potrebbe fornire all'Utente delle informative aggiuntive e "
+"contestuali riguardanti servizi specifici, o la raccolta ed il trattamento "
+"di Dati Personali.<h4><b>Log di sistema e manutenzione</b></h4>Per necessità "
+"legate al funzionamento ed alla manutenzione, questa Applicazione e gli "
+"eventuali servizi terzi da essa utilizzati potrebbero raccogliere Log di "
+"sistema, ossia file che registrano le interazioni e che possono contenere "
+"anche Dati Personali, quali l’indirizzo IP Utente.<h4><b>Informazioni non "
+"contenute in questa policy</b></h4>Maggiori informazioni in relazione al "
+"trattamento dei Dati Personali potranno essere richieste in qualsiasi "
+"momento al Titolare del Trattamento utilizzando le informazioni di contatto."
+"<h4><b>Esercizio dei diritti da parte degli Utenti</b></h4>I soggetti cui si "
+"riferiscono i Dati Personali hanno il diritto in qualunque momento di "
+"ottenere la conferma dell'esistenza o meno degli stessi presso il Titolare "
+"del Trattamento, di conoscerne il contenuto e l'origine, di verificarne "
+"l'esattezza o chiederne l’integrazione, la cancellazione, l'aggiornamento, "
+"la rettifica, la trasformazione in forma anonima o il blocco dei Dati "
+"Personali trattati in violazione di legge, nonché di opporsi in ogni caso, "
+"per motivi legittimi, al loro trattamento. Le richieste vanno rivolte al "
+"Titolare del Trattamento.Questa Applicazione non supporta le richieste “Do "
+"Not Track”. Per conoscere se gli eventuali servizi di terze parti utilizzati "
+"le supportano, consulta le loro privacy policy.<h4><b>Modifiche a questa "
+"privacy policy</b></h4>Il Titolare del Trattamento si riserva il diritto di "
+"apportare modifiche alla presente privacy policy in qualunque momento "
+"dandone pubblicità agli Utenti su questa pagina. Si prega dunque di "
+"consultare spesso questa pagina, prendendo come riferimento la data di "
+"ultima modifica indicata in fondo. Nel caso di mancata accettazione delle "
+"modifiche apportate alla presente privacy policy, l’Utente è tenuto a "
+"cessare l’utilizzo di questa Applicazione e può richiedere al Titolare del "
+"Trattamento di rimuovere i propri Dati Personali. Salvo quanto diversamente "
+"specificato, la precedente privacy policy continuerà ad applicarsi ai Dati "
+"Personali sino a quel momento raccolti.<h4><b>Informazioni su questa privacy "
+"policy</b></h4>Il Titolare del Trattamento dei Dati è responsabile per "
+"questa privacy policy, redatta partendo da moduli predisposti da Iubenda e "
+"conservati sui suoi server."
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/addon/privacy-policy-manager/ginger.privacy-policy-manager.php:126
+msgid "Add your services"
+msgstr ""
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/addon/privacy-policy-manager/ginger.privacy-policy-manager.php:132
+msgid "Social Login"
+msgstr ""
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/addon/privacy-policy-manager/ginger.privacy-policy-manager.php:142
+msgid "Login facebook text"
+msgstr ""
+"<h2><b>Permessi Facebook richiesti da questa Applicazione</b></h2>Questa "
+"Applicazione può richiedere alcuni permessi Facebook che le consentono di "
+"eseguire azioni con l’account Facebook dell’Utente e di raccogliere "
+"informazioni, inclusi Dati Personali, da esso.Per maggiorni informazioni sui "
+"permessi che seguono, fai riferimento alla <a href=”https://developers."
+"facebook.com/docs/authentication/permissions/” "
+"target=”_blank”>documentazione dei permessi Facebook</a> ed alla <a "
+"href=”https://www.facebook.com/about/privacy/” target=”_blank”>privacy "
+"policy di Facebook</a>.I permessi richiesti sono i seguenti:"
+"<h4><b>Informazioni di base</b></h4>Le informazioni di base dell’Utente "
+"registrato su Facebook che normalmente includono i seguenti Dati: id, nome, "
+"immagine, genere e lingua di localizzazione ed, in alcuni casi gli “Amici” "
+"di Facebook. Se l'Utente ha reso disponibili pubblicamente Dati ulteriori, "
+"gli stessi saranno disponibili.<h4><b>'Su di me' degli amici</b></"
+"h4>Fornisce accesso alla sezione 'Su di me' del profilo degli amici."
+"<h4><b>Accesso ai dati privati</b></h4>Permette l'accesso ai dati privati "
+"dell'utente e degli amici<h4><b>Accesso alle attività</b></h4>Fornisce "
+"accesso alla lista di attività dell'utente<h4><b>Accesso alle liste di "
+"amici</b></h4>Fornisce accesso alle liste di amici che l'utente ha "
+"creato<h4><b>Accesso alle richieste</b></h4>Fornisce accesso di lettura alle "
+"richieste di amicizia dell'utente<h4><b>Accesso allo News Feed</b></"
+"h4>Fornisce accesso ai post dello News Feed e permette all'applicazione di "
+"effettuare ricerche su di esso.<h4><b>Accesso offline</b></h4>Permette "
+"l'accesso ai dati quanto l'utente non è connesso.<h4><b>Aderenze politiche e "
+"religiose degli amici</b></h4>Fornisce accesso alle aderenze politiche e "
+"religiose degli amici.<h4><b>Aggiornamento di stato</b></h4>Aggiorna lo "
+"stato dell'utente.<h4><b>Attività degli amici</b></h4>Fornisce accesso alla "
+"lista delle attività degli amici.<h4><b>Attività degli amici con App e "
+"Giochi</b></h4>Permette di recuperare le attività degli amici dell'utente "
+"con le App e i Giochi.<h4><b>Attività delle App e dei Giochi</b></"
+"h4>Permette all'applicazione di pubblicare recuperare le attività delle App "
+"e dei Giochi.<h4><b>Azione music.listen</b></h4>Permette all'applicazione di "
+"recuperare le azioni pubblicate da tutte le applicazioni che usano l'azione "
+"music.<h4><b>Azioni 'news.reads'</b></h4>Permette all'applicazione di "
+"recuperare le azioni pubblicate da tutte le applicazioni che usano l'azione "
+"'news.reads'.<h4><b>Azioni 'video.watches'</b></h4>Permette all'applicazione "
+"di recuperare le azioni pubblicate da tutte le applicazioni che usano "
+"l'azione 'video.watches'.<h4><b>Azioni 'video.watches' degli amici</b></"
+"h4>Permette all'applicazione di recuperare le azioni pubblicate da tutte le "
+"applicazioni che usano l'azione 'video.watches'.<h4><b>Azioni Fitness</b></"
+"h4><h4><b>Azioni Libri</b></h4><h4><b>Azioni music.listens degli amici</b></"
+"h4>Permette all'applicazione di recuperare le azioni pubblicate da tutte le "
+"applicazioni che usano l'azione music.listens.<h4><b>Azioni news.read degli "
+"amici</b></h4>Permette all'applicazione di recuperare le azioni pubblicate "
+"da tutte le applicazioni che usano l'azione news.read.<h4><b>Azioni "
+"personalizzate degli amici dell'utente</b></h4>Permette all'applicazione di "
+"recuperare le azioni pubblicate da un'altra applicazione, secondo quando "
+"specificato dall''app namespace'.<h4><b>Azioni personalizzate dell'utente</"
+"b></h4>Permette all'applicazione di recuperare le azioni pubblicate da "
+"un'altra applicazione, secondo quando specificato dall''app namespace'."
+"<h4><b>Carica foto</b></h4>Aggiungi o modifica foto.<h4><b>Caricamento di "
+"video</b></h4>Permette all'app di aggiungere o modificare video dell'utente."
+"<h4><b>Chat</b></h4>Fornisce alle applicazioni che si integrano con la Chat "
+"di Facebook la possibilità di effettuare il login dell'utente<h4><b>Checkin</"
+"b></h4>Fornisce accesso di lettura ai checkin autorizzati dell'utente o a "
+"quelli di un amico che l'utente può visualizzare<h4><b>Checkin degli amici</"
+"b></h4>Fornisce accesso di lettura ai checkin degli amici che l'utente può "
+"vedere.<h4><b>Città</b></h4>Fornisce accesso alla città indicata nel profilo "
+"dell'utente<h4><b>Città degli amici</b></h4>Fornisce accesso alle città in "
+"cui vivono gli amici.<h4><b>Città di origine</b></h4>Fornisce accesso alla "
+"città di origine dell'utente.<h4><b>Città di origine degli amici</b></"
+"h4>Fornisce accesso alla città di origine degli amici dell'utente."
+"<h4><b>Condivisione</b></h4>Condivisione al posto dell'utente."
+"<h4><b>Convinzioni politiche e religiose</b></h4>Fornisce accesso alle "
+"convinzioni politiche e religiose dell'utente.<h4><b>Crea Eventi</b></"
+"h4>Permette all'utente di creare e modificare eventi al posto "
+"dell'utente<h4><b>Crea note</b></h4>Aggiungi o modifica note.<h4><b>Data di "
+"compleanno</b></h4>Fornisce accesso alla data di compleanno<h4><b>Date di "
+"compleanno degli amici</b></h4>Fornisce accesso alle date di compleanno "
+"degli amici.<h4><b>Deal</b></h4>Legge l'attività dei deal<h4><b>Domande</b></"
+"h4>Fornisce accesso alle domande che l'utente ha posto.<h4><b>Domande degli "
+"amici</b></h4>Fornisce accesso alle domande degli amici.<h4><b>Educazione</"
+"b></h4>Fornisce accesso alla sezione Educazione nel profilo "
+"dell'utente<h4><b>Educazione degli amici</b></h4>Fornisce accesso alle "
+"informazioni sull'educazione degli amici.<h4><b>Email</b></h4>Fornisce "
+"accesso all'indirizzo email primario dell'Utente<h4><b>Email di contatto</"
+"b></h4>Permette di accedere all'indirizzo email di contatto dell'utente."
+"<h4><b>Esportare i post</b></h4>Esportare i post e renderli pubblici. Tutti "
+"i post saranno esportati, compresi i messaggi di stato.<h4><b>Eventi</b></"
+"h4>Fornisce accesso alla lista di eventi a cui l'utente "
+"partecipa<h4><b>Eventi degli amici</b></h4>Fornisce accesso alla lista degli "
+"eventi a cui gli amici dell'utente partecipano.<h4><b>Foto</b></h4>Fornisce "
+"accesso alle foto che l'utente ha caricato ed a quelle in cui è stato "
+"taggato.<h4><b>Foto degli amici</b></h4>Fornisce accesso alle foto che "
+"l'utente ha caricato o in cui l'utente è stato taggato.<h4><b>Gestione degli "
+"annunci</b></h4>Fornisce la possibilità di gestire gli annunci pubblicitari "
+"e richiamare la Facebook Ads API al posto dell'utente.<h4><b>Gestione dei "
+"gruppi</b></h4>Permette all'applicazione di gestire i gruppi dell'utente."
+"<h4><b>Gestione della casella di posta</b></h4>Permette di leggere ed "
+"inviare messaggi dalla casella di posta dell'utente.<h4><b>Gestione delle "
+"notifiche</b></h4>Permette all'app di leggere le notifiche e di "
+"contrassegnarle come lette.<h4><b>Gestione delle pagine</b></h4>Permette "
+"all'applicazione di recuperare l'access_tokens per le Pagine e le "
+"Applicazioni che l'utente amministra.<h4><b>Gestisci Liste di Amici</b></"
+"h4>Permette all'applicazione di creare, eliminare e modificare le liste di "
+"amici dell'utente.<h4><b>Gruppi</b></h4>Fornisce accesso alla lista di "
+"gruppi di cui l'utente è membro.<h4><b>Gruppi degli amici</b></h4>Fornisce "
+"accesso alla lista dei gruppi di cui gli amici dell'utente sono membri."
+"<h4><b>Insight</b></h4>Fornisce accesso ai dati Insight per pagine, "
+"applicazioni e domini che l'utente possiede.<h4><b>Interessi</b></"
+"h4>Fornisce accesso alla lista di interessi dell'utente.<h4><b>Interessi "
+"degli amici</b></h4>Fornisce accesso alla lista di interessi degli amici "
+"dell'utente.<h4><b>Invio di notifiche</b></h4>Permette all'app d'inviare "
+"notifiche<h4><b>Invio SMS</b></h4>Permette all'app di inviare SMS al numero "
+"di telefono dell'utente.<h4><b>Leggi messaggi della pagina</b></"
+"h4><h4><b>Lettura della casella di posta</b></h4>Permette all'applicazione "
+"di leggere la casella di posta Facebook dell'utente.<h4><b>Lista degli "
+"Amici</b></h4><h4><b>Luoghi taggati</b></h4><h4><b>Membri della famiglia e "
+"Stato di relazione</b></h4>Fornisce accesso ai membri della famiglia "
+"dell'utente, alle sue relazioni personali ed al suo stato di relazione."
+"<h4><b>Membri della famiglia e Stato di relazione degli amici</b></"
+"h4>Fornisce accesso ai membri della famiglia ed allo stato di relazione "
+"degli amici dell'utente.<h4><b>Mi Piace</b></h4>Fornisce accesso alla lista "
+"di tutte le pagine che l'utente ha contrassegnato con il Mi Piace.<h4><b>Mi "
+"Piace degli amici</b></h4>Fornisce accesso alla lista di pagine su cui gli "
+"amici dell'utente hanno fatto Mi Piace.<h4><b>Note</b></h4>Fornisce accesso "
+"alle note dell'utente.<h4><b>Note degli amici</b></h4>Fornisce accesso alle "
+"note degli amici.<h4><b>Presenza online</b></h4>Permette l'accesso alla "
+"presenza online/offline dell'utente.<h4><b>Presenza online degli amici</b></"
+"h4>Fornisce accesso alla presenza online/offline degli amici dell'utente."
+"<h4><b>Pubblica Mi Piace sul Wall</b></h4>Pubblica sul Wall storie su ciò "
+"che l'utente contrassegna con il Mi Piace.<h4><b>Pubblicazione dei checkin</"
+"b></h4>Permette all'app di effettuare checkin al posto dell'utente."
+"<h4><b>Pubblicazione dell'attività dell'app</b></h4>Permette all'app di "
+"pubblicare sull'Open Graph usando Azioni integrate, Traguardi, Punteggi, "
+"Azioni personalizzate. L'applicazione può anche pubblicare altre attività, "
+"che sono dettagliate nel documento riguardante i permessi di pubblicazione "
+"di Facebook.<h4><b>Pubblicazione sulla Bacheca</b></h4>Permette a questa app "
+"di pubblicare contenuto, commenti e 'Mi piace' sulla bacheca dell'utente e "
+"su quella dei suoi amici.<h4><b>Relazioni degli amici</b></h4>Fornisce "
+"accesso alle informazioni sulle relazioni degli amici.<h4><b>Relazioni "
+"dell'utente</b></h4>Fornisce accesso alle informazioni sulle relazioni "
+"dell'utente.<h4><b>RSVP agli eventi</b></h4>Permette all'applicazione di "
+"fare RSVP agli eventi al posto dell'utente.<h4><b>Siti web degli amici</b></"
+"h4>Fornisce accesso agli URL dei siti web degli amici dell'utente."
+"<h4><b>Sito web</b></h4>Fornisce accesso al sito web dell'utente."
+"<h4><b>Sottoscrizioni degli amici</b></h4><h4><b>Sottoscrizioni dell'Utente</"
+"b></h4><h4><b>Stato degli amici</b></h4>Fornisce accesso ai messaggi di "
+"stato ed ai checkin degli amici.<h4><b>Stato dell'utente</b></h4>Fornisce "
+"accesso ai messaggi di stato e ai checkin dell'utente.<h4><b>Storia "
+"lavorativa</b></h4>Fornisce accesso alla storia lavorativa dell'utente."
+"<h4><b>Storia lavorativa degli amici</b></h4>Fornisce accesso alla storia "
+"lavorativa degli amici.<h4><b>Su di me</b></h4>Fornisce accesso alla sezione "
+"'Su di me' del profilo<h4><b>Video</b></h4>Fornisce accesso ai video che "
+"l'utente ha caricato ed a quelli in cui è stato taggato.<h4><b>Video degli "
+"amici</b></h4>Fornisce accesso ai video che gli amici hanno caricato ed in "
+"cui sono stati taggati.<h2><b>Accesso agli account su servizi terzi</b></"
+"h2>Questi servizi permettono a questa Applicazione di prelevare Dati dai "
+"tuoi account su servizi terzi ed eseguire azioni con essi.Questi servizi non "
+"sono attivati automaticamente, ma richiedono l'espressa autorizzazione "
+"dell'Utente.<h4><b>Accesso all'account Facebook (Questa Applicazione)</b></"
+"h4>Questo servizio permette a questa Applicazione di connettersi con "
+"l'account dell'Utente sul social network Facebook, fornito da Facebook, Inc."
+"Permessi richiesti: 'Su di me' degli amici, Accesso ai dati privati, Accesso "
+"alle attività, Accesso alle liste di amici, Accesso alle richieste, Accesso "
+"allo News Feed, Accesso offline, Aderenze politiche e religiose degli amici, "
+"Aggiornamento di stato, Attività degli amici, Attività degli amici con App e "
+"Giochi, Attività delle App e dei Giochi, Azione music.listen, Azioni 'news."
+"reads', Azioni 'video.watches', Azioni 'video.watches' degli amici, Azioni "
+"Fitness, Azioni Libri, Azioni music.listens degli amici, Azioni news.read "
+"degli amici, Azioni personalizzate degli amici dell'utente, Azioni "
+"personalizzate dell'utente, Carica foto, Caricamento di video, Chat, "
+"Checkin, Checkin degli amici, Città, Città degli amici, Città di origine, "
+"Città di origine degli amici, Condivisione, Convinzioni politiche e "
+"religiose, Crea Eventi, Crea note, Data di compleanno, Date di compleanno "
+"degli amici, Deal, Domande, Domande degli amici, Educazione, Educazione "
+"degli amici, Email, Email di contatto, Esportare i post, Eventi, Eventi "
+"degli amici, Foto, Foto degli amici, Gestione degli annunci, Gestione dei "
+"gruppi, Gestione della casella di posta, Gestione delle notifiche, Gestione "
+"delle pagine, Gestisci Liste di Amici, Gruppi, Gruppi degli amici, Insight, "
+"Interessi, Interessi degli amici, Invio di notifiche, Invio SMS, Leggi "
+"messaggi della pagina, Lettura della casella di posta, Lista degli Amici, "
+"Luoghi taggati, Membri della famiglia e Stato di relazione, Membri della "
+"famiglia e Stato di relazione degli amici, Mi Piace, Mi Piace degli amici, "
+"Note, Note degli amici, Presenza online, Presenza online degli amici, "
+"Pubblica Mi Piace sul Wall, Pubblicazione dei checkin, Pubblicazione "
+"dell'attività dell'app, Pubblicazione sulla Bacheca, Relazioni degli amici, "
+"Relazioni dell'utente, RSVP agli eventi, Siti web degli amici, Sito web, "
+"Sottoscrizioni degli amici, Sottoscrizioni dell'Utente, Stato degli amici, "
+"Stato dell'utente, Storia lavorativa, Storia lavorativa degli amici, Su di "
+"me, Video e Video degli amici.Luogo del trattamento : USA – <a href=”https://"
+"www.facebook.com/policy.php” target=”_blank”>Privacy Policy</a>"
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/addon/privacy-policy-manager/ginger.privacy-policy-manager.php:154
+#: /var/www/sitolocale/wp-content/plugins/ginger/addon/privacy-policy-manager/ginger.privacy-policy-manager.php:165
+#: /var/www/sitolocale/wp-content/plugins/ginger/addon/privacy-policy-manager/ginger.privacy-policy-manager.php:175
+msgid "Login Pinterest text"
+msgstr ""
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/addon/privacy-policy-manager/ginger.privacy-policy-manager.php:161
+msgid "Login Linkedin text"
+msgstr ""
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/addon/privacy-policy-manager/ginger.privacy-policy-manager.php:185
+msgid "Login Google Plus text"
+msgstr ""
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/addon/privacy-policy-manager/ginger.privacy-policy-manager.php:193
+msgid "Social Widget"
+msgstr ""
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/addon/privacy-policy-manager/ginger.privacy-policy-manager.php:203
+#: /var/www/sitolocale/wp-content/plugins/ginger/addon/privacy-policy-manager/ginger.privacy-policy-manager.php:236
+msgid "Widget Facebook text"
+msgstr ""
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/addon/privacy-policy-manager/ginger.privacy-policy-manager.php:215
+msgid "Widget Twitter text"
+msgstr ""
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/addon/privacy-policy-manager/ginger.privacy-policy-manager.php:226
+msgid "Widget Linkedin text"
+msgstr ""
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/addon/privacy-policy-manager/ginger.privacy-policy-manager.php:246
+msgid "Widget Google Plus text"
+msgstr ""
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/addon/privacy-policy-manager/ginger.privacy-policy-manager.php:256
+msgid "Widget Disqus text"
+msgstr ""
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/addon/privacy-policy-manager/ginger.privacy-policy-manager.php:264
+msgid "Statistic Services"
+msgstr ""
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/addon/privacy-policy-manager/ginger.privacy-policy-manager.php:275
+msgid "Google Analytics text"
+msgstr ""
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/addon/privacy-policy-manager/ginger.privacy-policy-manager.php:283
+msgid "Piattaforme esterne"
+msgstr ""
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/addon/privacy-policy-manager/ginger.privacy-policy-manager.php:294
+msgid "Maps text"
+msgstr ""
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/addon/privacy-policy-manager/ginger.privacy-policy-manager.php:305
+msgid "Youtube text"
+msgstr ""
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/addon/privacy-policy-manager/ginger.privacy-policy-manager.php:316
+msgid "Vimeo text"
+msgstr ""
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/addon/privacy-policy-manager/ginger.privacy-policy-manager.php:324
+msgid "Piattaforme esterne e commenti social"
+msgstr ""
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/addon/privacy-policy-manager/ginger.privacy-policy-manager.php:335
+msgid "Share This text"
+msgstr ""
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/front/gingerfront.utils.php:130
+msgid "Enable Cookies"
+msgstr "Abilita Cookies"
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/front/gingerfront.utils.php:136
+msgid "Disable Cookies"
+msgstr "Disabilita Cookies"
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/ginger.admin.php:43
+msgid ""
+"The page with the specified title already exists and is your current privacy "
+"policy page!"
+msgstr ""
+"La pagina con il titolo specificato è già esistente ed impostata come pagina "
+"di privacy attuale!"
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/ginger.admin.php:64
+msgid "Updated!"
+msgstr "Aggiornato!"
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/ginger.admin.php:74
+msgid "General Configuration"
+msgstr "Configurazione Generale"
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/ginger.admin.php:75
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/banner.php:5
+msgid "Banner Setup"
+msgstr "Banner Setup"
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/ginger.admin.php:76
+msgid "Privacy Policy"
+msgstr "Privacy Policy"
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/ginger.utils.php:76
+msgid ""
+"This website uses cookies. By continuing to use the site you are agreeing to "
+"its use of cookies."
+msgstr ""
+"Questo sito utilizza cookie. Continuando la navigazione acconsenti "
+"all'utilizzo di questi cookie."
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/ginger.utils.php:77
+msgid "This content has been disabled because you have not accepted cookies."
+msgstr ""
+"Questo contenuto può essere mostrato solo accettando l'utilizzo dei cookies."
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/ginger.pointer.php:39
+msgid "Ginger Cookie Law Settings"
+msgstr "Ginger Cookie Law Settings"
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/ginger.pointer.php:40
+msgid "<b>One more step</b>: you need to enable banner in "
+msgstr "<b>Ancora un passo</b>: devi abilitare il banner in "
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/link.php:8
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/url.php:8
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/banner.php:219
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/banner.php:222
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/dialog.php:64
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/dialog.php:67
+msgid "Link"
+msgstr "Link"
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/url.php:35
+msgid "URL"
+msgstr "URL"
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/url.php:37
+msgid "Enable"
+msgstr "Abilitato"
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/url.php:37
+msgid "YES"
+msgstr "SI"
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/url.php:38
+msgid "NO"
+msgstr "NO"
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/general.php:8
+msgid "Ginger is currently"
+msgstr "Ginger è attualmente"
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/general.php:8
+msgid "enabled"
+msgstr "abilitato"
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/general.php:8
+msgid "disabled"
+msgstr "disabilitato"
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/general.php:14
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/general.php:17
+msgid "Enable Ginger"
+msgstr "Abilita Ginger"
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/general.php:20
+msgid "Enabled"
+msgstr "Abilitato"
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/general.php:25
+msgid "Disabled"
+msgstr "Disabilitato"
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/general.php:32
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/general.php:35
+msgid "Do you have a cache system?"
+msgstr "Hai un sistema di cache"
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/general.php:38
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/general.php:113
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/general.php:133
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/general.php:153
+msgid "Yes"
+msgstr "Si"
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/general.php:43
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/general.php:118
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/general.php:138
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/general.php:158
+msgid "No"
+msgstr "No"
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/general.php:48
+msgid ""
+"If you have a caching system (W3TC, Varnish, WP Super Cash...) choose YES. "
+"Ginger will optimize websites performances"
+msgstr ""
+"Se utilizzi un sistema di caching (W3TC, Varnish, WP Super Cash...) "
+"seleziona SI. Ginger ottimizzerà le prestazioni del sito"
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/general.php:55
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/general.php:58
+msgid "Cookie Confirmation Type"
+msgstr "Tipo di conferma dei cookie"
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/general.php:61
+msgid "Opt-In"
+msgstr "Opt-In"
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/general.php:64
+msgid "Cookies are disabled until banner is accepted"
+msgstr "I cookie sono disabilitati finchè il banner non è accettato"
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/general.php:69
+msgid "Opt-Out"
+msgstr "Opt-Out"
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/general.php:72
+msgid "Cookies are disabled only if explicitly requested"
+msgstr "I cookie sono disabilitati solo se esplicitamente richiesto"
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/general.php:77
+msgid "Choose OPT-IN if you're in Italy"
+msgstr "Seleziona OPT-IN se ti trovi in Italia"
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/general.php:85
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/general.php:89
+msgid "Let scroll to confirm"
+msgstr "Scrolla per confermare"
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/general.php:93
+msgid "Scroll to accept cookie"
+msgstr "Scrolla per accettare i cookie"
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/general.php:98
+msgid "Keep banner after scroll"
+msgstr "Non abilitare i cookie con lo scroll"
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/general.php:105
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/general.php:109
+msgid "Click out of banner to accept cookie"
+msgstr "Clicca fuori dal banner per accettare i cookie"
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/general.php:125
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/general.php:129
+msgid "Force reload page"
+msgstr "Forza il reload della pagina"
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/general.php:145
+msgid "Stress Mode"
+msgstr "Stress Mode"
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/general.php:149
+msgid "Keep banner until acceptance"
+msgstr "Mantieni il banner fino all'accettazione"
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/general.php:163
+msgid ""
+"If cookies are not accepted the banner will continues to be shown minimized"
+msgstr ""
+"Se i cookie non vengono accettati il banner continuerà ad essere mostrato "
+"minimizzato"
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/general.php:170
+msgid "Cookies Duration"
+msgstr "Durata Cookie"
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/general.php:174
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/general.php:177
+msgid "Select cookies duration"
+msgstr "Seleziona la durata dei cookie"
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/general.php:179
+msgid "Select"
+msgstr "Seleziona"
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/general.php:180
+msgid "1 Day"
+msgstr "1 Giorno"
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/general.php:181
+msgid "1 Month"
+msgstr "1 Mese"
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/general.php:182
+msgid "1 Year"
+msgstr "1 Anno"
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/general.php:183
+msgid "For ever"
+msgstr "Per sempre"
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/banner.php:11
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/banner.php:14
+msgid "Choose Banner Type"
+msgstr "Scegli il tipo di banner"
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/banner.php:16
+msgid "Bar"
+msgstr "Barra"
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/banner.php:20
+msgid "Dialog"
+msgstr "Dialog"
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/banner.php:26
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/banner.php:29
+msgid "Banner Position"
+msgstr "Posizione Banner"
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/banner.php:31
+msgid "Top"
+msgstr "In alto"
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/banner.php:35
+msgid "Bottom"
+msgstr "In basso"
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/banner.php:41
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/banner.php:44
+msgid "Banner Text"
+msgstr "Testo Banner"
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/banner.php:52
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/dialog.php:24
+msgid ""
+"You can use syntax <code>{{privacy_page}}</code> to link Privacy Police Page "
+"defined in <a href=\"admin.php?page=ginger-setup&tab=policy\">Privacy Policy "
+"Tab</a>"
+msgstr ""
+"Puoi usare la sintassi <code>{{privacy_page}}</code> per linkare alla pagina "
+"Privacy Policy definita in <a href=\"admin.php?page=ginger-setup&tab=policy"
+"\">Privacy Policy Tab</a>"
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/banner.php:59
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/banner.php:62
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/banner.php:77
+msgid "Iframe Text"
+msgstr "Testo Iframe"
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/banner.php:74
+msgid "Customize your banner buttons"
+msgstr "Personalizza i tuoi Banner Buttons"
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/banner.php:79
+msgid "Accept cookie Button"
+msgstr "Button Accetta Cookie"
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/banner.php:83
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/banner.php:97
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/banner.php:129
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/banner.php:188
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/banner.php:191
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/dialog.php:51
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/dialog.php:53
+msgid "Text"
+msgstr "Testo"
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/banner.php:88
+msgid "Accept Cookie"
+msgstr "Accetta Cookie"
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/banner.php:93
+msgid "Disable cookie Button"
+msgstr "Button Disabilita Cookie "
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/banner.php:102
+msgid "Disable Cookie"
+msgstr "Disabilita Cookie"
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/banner.php:106
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/banner.php:138
+msgid "Enable:"
+msgstr "Abilita:"
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/banner.php:125
+msgid "Read More Button"
+msgstr "Button Read More "
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/banner.php:134
+msgid "Read More"
+msgstr "Read More"
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/banner.php:158
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/banner.php:161
+msgid "Choose Ginger Theme"
+msgstr "Scegli il tema Ginger"
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/banner.php:163
+msgid "Light Theme"
+msgstr "Light Theme"
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/banner.php:167
+msgid "Dark Theme"
+msgstr "Dark Theme"
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/banner.php:174
+msgid "Customize your Ginger theme"
+msgstr "Personalizza il tuo tema Ginger"
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/banner.php:178
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/banner.php:181
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/dialog.php:37
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/dialog.php:39
+msgid "Background"
+msgstr "Sfondo"
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/banner.php:199
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/banner.php:202
+msgid "Button"
+msgstr "Button"
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/banner.php:209
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/banner.php:212
+msgid "Button Text Color"
+msgstr ""
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/banner.php:230
+msgid "Custom CSS"
+msgstr "Custom CSS"
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/banner.php:234
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/banner.php:237
+msgid "Insert here your banner custom CSS"
+msgstr "Inserisci qui il CSS personalizzato per il tuo banner"
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/dialog.php:8
+msgid "Banner Dialog Setup"
+msgstr "Banner Dialog Setup"
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/dialog.php:15
+msgid "Dialog Text"
+msgstr "Testo Dialog "
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/dialog.php:17
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/policy.php:23
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/policy.php:98
+msgid "DialogText"
+msgstr "Testo Dialog "
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/dialog.php:32
+msgid "Colors"
+msgstr "Colori"
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/policy.php:8
+msgid "Privacy Policy Setup"
+msgstr "Privacy Policy Setup"
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/policy.php:16
+msgid "Select your privacy policy page"
+msgstr "Seleziona la tua pagina privacy policy"
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/policy.php:53
+msgid "Privacy Policy page"
+msgstr "Privacy Policy Page"
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/policy.php:78
+msgid "or create your privacy policy page"
+msgstr "oppure crea la tua pagina privacy policy "
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/policy.php:87
+msgid "Title"
+msgstr "Titolo"
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/policy.php:91
+msgid "Attention ! There is already a page with this title"
+msgstr "Attenzione! C'è già una pagina con questo titolo"
+
+msgid "Disable Ginger for logged users"
+msgstr "Disabilita Ginger per gli utenti loggati"
+
+msgid "Disable Ginger for those pages"
+msgstr "Disabilita Ginger per queste pagine"
+
+msgid "Select pages in which Ginger is disabled"
+msgstr "Seleziona le pagine nelle quali vuoi che Ginger sia disabilitato"
+
+msgid "Disable Click-out and Scroll to accept cookies in Privacy Policy page"
+msgstr ""
+"Disabilita Click-out e Scroll per accettare i cookies nella pagina di "
+"Privacy Policy"
+
+#: /var/www/sitolocale/wp-content/plugins/ginger/admin/partial/policy.php:111
+msgid "If you create a new page this will be setted as Privacy Policy Page"
+msgstr ""
+"Se crei una nuova pagina questa sarà impostata come pagina Privacy Policy"
+
+#, fuzzy
+#~ msgid "Read More Button2"
+#~ msgstr "Button Read More "
+
+#~ msgid "Edit Url"
+#~ msgstr "Url Setup"
+
+#~ msgid "WPML Setup"
+#~ msgstr "WPML Setup"
+
+#~ msgid "About EU Law"
+#~ msgstr "About EU Law"
+
+#~ msgid "Wpml Setup"
+#~ msgstr "Wpml Setup"

@@ -1,0 +1,360 @@
+.ginger-banner *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.ginger-banner p{
+    margin-bottom: 1em;
+}
+
+.ginger-banner{
+    position: fixed;
+    left: 0;
+    right: 0;
+    background-color: white;
+    padding: 1em;
+    color: #232323;
+    font-size: 1em;
+    z-index: 99999998 !important;
+}
+
+.ginger-banner.top{
+    top: 0;
+    border-bottom: 1px solid #000;
+}
+.ginger-banner.bottom{
+    bottom: 0;
+    border-top: 1px solid #000;
+}
+.ginger-banner.dialog{
+    width: 300px;
+    border: 1px solid #000;
+    box-shadow:1px 1px 2px #000;
+    -moz-box-shadow:1px 1px 2px #000;
+    -webkit-box-shadow:1px 1px 2px #000;
+    right: 10px;
+    left: initial;
+}
+.ginger-banner.dialog.top{
+    top: 10px;
+}
+.ginger-banner.dialog.bottom{
+    bottom: 10px;
+}
+.ginger-banner div.ginger-button-wrapper{
+    width: 100%;
+    float: left;
+}
+.ginger-banner .ginger-button-wrapper div.ginger-button{
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+.ginger-accept, .ginger-dismiss, .ginger-disable{
+    width: 160px;
+    float: left;
+    text-align: center;
+    margin-top: 8px !important;
+    margin-bottom: 6px !important;
+    display: block;
+    padding: 8px 16px !important;
+    background-color: #f1d600;
+    color: #111;
+    margin-right: 12px !important;
+    text-decoration: none !important;
+    font-size:12pt !important;
+    font-weight: 600;
+    letter-spacing: -0.05em;
+    transition:background 0.2s ease-in-out 0s, color 0.2s ease-in-out 0s, box-shadow 0.2s ease-in-out 0s;
+    -moz-transition:background 0.2s ease-in-out 0s, color 0.2s ease-in-out 0s, -moz-box-shadow 0.2s ease-in-out 0s;
+    -webkit-transition:background 0.2s ease-in-out 0s, color 0.2s ease-in-out 0s, -webkit-box-shadow 0.2s ease-in-out 0s;
+}
+
+.ginger-disable{
+    background-color: #aaa;
+}
+
+.ginger-accept:hover,
+.ginger-dismiss:hover,
+.ginger-disable:hover{
+    margin-top: 8px !important;
+    margin-bottom: 6px !important;
+    display: block;
+    padding: 8px 16px !important;
+    background-color: #f1d600 !important;
+    color: #111 !important;
+    margin-right: 12px !important;
+    text-decoration: none !important;
+    font-size:12pt !important;
+    font-weight: 600;
+    letter-spacing: -0.05em;
+
+    box-shadow:1px 1px 2px #000;
+    -moz-box-shadow:1px 1px 2px #000;
+    -webkit-box-shadow:1px 1px 2px #000;
+
+    transition:background 0.2s ease-in-out 0s, color 0.2s ease-in-out 0s, box-shadow 0.2s ease-in-out 0s;
+    -moz-transition:background 0.2s ease-in-out 0s, color 0.2s ease-in-out 0s, -moz-box-shadow 0.2s ease-in-out 0s;
+    -webkit-transition:background 0.2s ease-in-out 0s, color 0.2s ease-in-out 0s, -webkit-box-shadow 0.2s ease-in-out 0s;
+}
+
+.ginger-dismiss{
+    position: absolute;
+    font-size: .8em;
+    right: 1em;
+    top: 1em;
+    background-color: #ccc;
+    color: #333;
+}
+
+.ginger-iframe-placeholder{
+    padding: 1em;
+    background-color: #eee;
+    margin: 1em 0;
+    text-align: center;
+}
+.ginger-iframe-placeholder a.ginger-accept{
+    float: none;
+    margin-left: auto;
+    margin-right: auto !important;
+}
+
+.ginger-iframe-placeholder p{
+    margin: 0;
+}
+
+.ginger-banner iframe{
+    width: 100%;
+}
+
+.ginger_banner-wrapper {
+    z-index: 99999998;
+    position: relative
+}
+
+.ginger_container .ginger_btn {
+    cursor: pointer;
+    text-align: center;
+    font-size: 0.6em;
+    transition: font-size 200ms;
+    line-height: 1em
+}
+
+.ginger_container .ginger_message {
+    font-size: 0.6em;
+    transition: font-size 200ms;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5em
+}
+
+.ginger_container .ginger_logo:hover, .ginger_container .ginger_logo:active {
+    opacity: 1
+}
+
+@media screen and (min-width: 500px) {
+    .ginger_container .ginger_btn {
+        font-size: 0.8em
+    }
+
+    .ginger_container .ginger_message {
+        font-size: 0.8em
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .ginger_container .ginger_btn {
+        font-size: 1em
+    }
+
+    .ginger_container .ginger_message {
+        font-size: 1em;
+        line-height: 1em
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .ginger_container .ginger_message {
+        font-size: 1em
+    }
+}
+
+@media print {
+    .ginger_banner-wrapper, .ginger_container {
+        display: none
+    }
+}
+
+.ginger_container {
+    position: fixed;
+    overflow: hidden;
+    padding: 10px 15px 50px
+}
+
+.ginger_container.bottom {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    padding: 10px 15px 50px
+}
+.ginger_container.top {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top:0;
+    overflow: hidden;
+    padding: 10px 15px 50px
+}
+
+.ginger_container .ginger_btn {
+    padding: 8px 16px;
+    background-color: #f1d600;
+    text-align: center;
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.ginger_container .ginger_btn.ginger-disable{
+
+}
+@media screen and (min-width: 500px) {
+    .ginger_container {
+        width: 300px;
+    }
+    .ginger_container.bottom {
+        left: initial;
+        right: 20px;
+        bottom: 20px;
+        width: 300px;
+        padding-bottom: 77px
+    }
+    .ginger_container.top {
+        left: initial;
+        right: 20px;
+        top: 20px;
+        width: 300px;
+    }
+
+    .ginger_container .ginger_logo {
+        display: block;
+        position: absolute;
+        bottom: 8px;
+        left: calc(50% - 50px)
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .ginger_container {
+        padding-bottom: 87px
+    }
+
+    .ginger_container .ginger_message {
+        font-size: 1em
+    }
+}
+
+.ginger_container {
+    background: #fff;
+    color: #999;
+    font-size: 17px;
+    box-sizing: border-box;
+    border: 1px solid #ccc
+}
+
+.ginger_container.dark{
+    background: #222;
+    color: #fff;
+}
+.ginger_container.light{
+    background: white;
+    color: #000000;
+}
+
+.ginger_container ::-moz-selection {
+    background: #ff5e99;
+    color: #fff;
+    text-shadow: none
+}
+
+.ginger_container .ginger_btn, .ginger_container .ginger_btn:visited {
+    color: #000;
+    background-color: #f1d600;
+    transition: background 200ms ease-in-out, color 200ms ease-in-out, box-shadow 200ms ease-in-out;
+    -webkit-transition: background 200ms ease-in-out, color 200ms ease-in-out, box-shadow 200ms ease-in-out;
+    border-radius: 5px;
+    -webkit-border-radius: 5px
+}
+
+.ginger_container .ginger_btn:hover, .ginger_container .ginger_btn:active {
+    background-color: #d7bf00;
+    color: #000
+}
+
+.ginger_container a, .ginger_container a:visited {
+    text-decoration: none;
+    color: #31a8f0;
+    transition: 200ms color
+}
+
+.ginger_container a:hover, .ginger_container a:active {
+    color: #555
+}
+
+@-webkit-keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(20px);
+        transform: translateX(20px)
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+        transform: translateX(0)
+    }
+}
+
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(20px);
+        -ms-transform: translateX(20px);
+        transform: translateX(20px)
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+        transform: translateX(0)
+    }
+}
+
+.ginger_container {
+    -webkit-animation-duration: 0.6s;
+    animation-duration: 0.6s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 0.8s;
+    -moz-animation-duration: 0.8s;
+    -o-animation-duration: 0.8s;
+    animation-duration: 0.8s;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: fadeInRight;
+    animation-name: fadeInRight
+}
+
+@media screen and (min-width: 500px) {
+    .ginger_container {
+        border-radius: 5px;
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2)
+    }
+}
+
