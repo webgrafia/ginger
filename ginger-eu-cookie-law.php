@@ -12,6 +12,14 @@ Text Domain: ginger
 
 if ( !defined('ABSPATH')) exit;
 
+add_action("admin_init","check_ginger_plus");
+function check_ginger_plus(){
+// check compatibility with old ginger plus
+    if(is_plugin_active('ginger-plus/ginger-plus.php')){
+        deactivate_plugins( 'ginger-plus/ginger-plus.php', true );
+    }
+}
+
 load_plugin_textdomain( 'ginger', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
 require_once('addon/ginger.addon.utils.php');
 
