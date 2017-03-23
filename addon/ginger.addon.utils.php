@@ -1,11 +1,5 @@
 <?php
-/*
- * Option Analitics: gingeranalytics_option -> Contine l'array con le impostazioni del plugin - gingeranalytics -> Contine le optin con il serial number e l'attivazione;
- *
- *
- */
 
-$addons = ginger_include_addons();
 if(!function_exists("ginger_include_addons")) {
     function ginger_include_addons()
     {
@@ -28,3 +22,5 @@ if(!function_exists("ginger_include_addons")) {
         return $addons;
     }
 }
+
+$addons = ginger_include_addons();
