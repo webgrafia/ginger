@@ -102,7 +102,9 @@ function ginger_analytics(){
 add_action( 'wp_head', 'ginger_anyltics_script_anonymize');
 function ginger_anyltics_script_anonymize(){ ?>
     <?php $option  = get_option('gingeranalytics_option');?>
-  <script>gingeranalytics('<?php if(isset($option['ginger_analytics_code']) && $option['ginger_analytics_code'] != '' ): echo $option['ginger_analytics_code']; endif;?>')</script>
+    <?php if($option['enable_ginger_analytics'] == true && (isset($option['ginger_analytics_code']) && $option['ginger_analytics_code'] != '')) : ?>
+  <script>gingeranalytics('<?php echo $option['ginger_analytics_code']; ?>')</script>
+    <?php endif; ?>
 <?php }
 
 // Registro script per il controllo dello script Analytics
