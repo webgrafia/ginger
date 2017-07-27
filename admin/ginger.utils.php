@@ -11,7 +11,10 @@
 add_action( 'admin_menu', 'register_ginger_menu_page' );
 function register_ginger_menu_page(){
     global $ginger_menu_hook;
-    $ginger_menu_hook = add_menu_page( 'ginger', 'Ginger Cookie', 'manage_options', 'ginger-setup', 'ginger_menu_page', plugins_url( 'ginger/img/ginger-color.png' ));
+
+	$capability = apply_filters('ginger_admin_menu_capability', 'manage_options');
+
+	$ginger_menu_hook = add_menu_page( 'ginger', 'Ginger Cookie', $capability, 'ginger-setup', 'ginger_menu_page', plugins_url( 'ginger/img/ginger-color.png' ));
     do_action("ginger_add_menu");
 
 
