@@ -237,7 +237,7 @@
                             ?>
                             <div data-repeater-item>
                                 <select name="select-input" style="min-width:30%">
-                                    <option value="">Seleziona</option>
+                                    <option value=""><?php _e( 'Select', 'ginger'); ?></option>
 
                             <?php
                                 foreach ($pages as $page):
@@ -276,7 +276,7 @@
                             ?>
                             <div data-repeater-item>
                                 <select name="select-input" style="min-width:30%">
-                                    <option value="">Seleziona</option>
+                                    <option value=""><?php _e( 'Select', 'ginger'); ?></option>
 
                             <?php
                                 foreach ($pages as $page):
