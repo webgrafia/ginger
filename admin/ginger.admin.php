@@ -90,6 +90,8 @@ endif;
    <a href="admin.php?page=ginger-setup&tab=banner" class="nav-tab <?php echo (($_GET["page"] == 'ginger-setup') && (isset($_GET["tab"]) && $_GET["tab"] == "banner" )) ? 'nav-tab-active' : ''; ?>"><?php _e("Banner Setup", "ginger"); ?></a>
    <a href="admin.php?page=ginger-setup&tab=policy" class="nav-tab <?php echo (($_GET["page"] == 'ginger-setup') && (isset($_GET["tab"]) && $_GET["tab"] == "policy" )) ? 'nav-tab-active' : ''; ?>"><?php _e("Privacy Policy", "ginger"); ?></a>
        <?php  do_action("ginger_add_tab_menu"); ?>
+  <a href="admin.php?page=ginger-setup&tab=more" class="nav-tab <?php echo (($_GET["page"] == 'ginger-setup') && (isset($_GET["tab"]) && $_GET["tab"] == "more" )) ? 'nav-tab-active' : ''; ?>"><?php _e("More", "ginger"); ?></a>
+
    </h2>
     <form method="post" action="admin.php?page=<?php echo $_GET["page"]; ?><?php if(isset($tab)) echo '&tab=' . $tab; ?>" <?php echo 'class="repeater"';?>>
         <?php wp_nonce_field('save_ginger_options', 'ginger_options'); ?>
@@ -104,8 +106,16 @@ endif;
                 case "policy":
                 include('partial/policy.php');
                 break;
-            }?>
+            case "more":
+                include('partial/more.php');
+                break;
+            }
+if($tab != "more"){
+?>
         <p class="submit"><input type="submit" name="submit" id="submit" class="button button-primary" value="<?php _e("Save Changes", "ginger"); ?>"></p>
+    <?php
+}
+?>
     </form>
 </div>
 
