@@ -1,0 +1,821 @@
+# Copyright (C) 2015 Automattic
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Ginger\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tags/_s\n"
+"POT-Creation-Date: 2017-08-10 11:08+0200\n"
+"PO-Revision-Date: 2017-08-10 11:26+0200\n"
+"Last-Translator: Yard Internet <info@yard.nl>\n"
+"Language-Team: Yard Internet <info@yard.nl>\n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-KeywordsList: _e;__;_x:2c,1;_n:1,2;_n_noop:1,2;_nx:1,2;"
+"_nx_noop:1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: addon/analytics/ginger.analytics.php:11
+msgid "Google Analytics"
+msgstr "Google Analytics"
+
+#: addon/analytics/ginger.analytics.php:51
+msgid "Attenzione è stato trovato un codice analytics nella pagina"
+msgstr ""
+
+#: addon/analytics/ginger.analytics.php:59
+msgid "Impostazioni Add on"
+msgstr ""
+
+#: addon/analytics/ginger.analytics.php:64
+#: addon/analytics/ginger.analytics.php:67
+msgid "Enable Ginger Analytics"
+msgstr ""
+
+#: addon/analytics/ginger.analytics.php:82
+#: addon/analytics/ginger.analytics.php:85
+msgid "Codice Analytics (Ex: UA-XXXXXXX-X)"
+msgstr ""
+
+#: addon/analytics/ginger.analytics.php:88
+msgid "Inserisci qui il tuo traking code"
+msgstr ""
+
+#: addon/analytics/ginger.analytics.php:95
+#: addon/jscustom/page/ginger-iframe.php:44
+#: addon/jscustom/page/ginger-jscustom.php:53
+#: addon/polylang/ginger.polylang.php:241 addon/wpml/ginger.wpml.php:222
+#: admin/ginger.admin.php:115
+msgid "Save Changes"
+msgstr "Wijzigingen opslaan"
+
+#: addon/exporter/index.php:8
+msgid "Import/Export"
+msgstr "Import/Export"
+
+#: addon/exporter/index.php:21
+msgid "All done! Your configuration was saved!"
+msgstr "Klaar! Uw configuratie is opgeslagen!"
+
+#: addon/exporter/index.php:23
+msgid "Error! Copied text is wrong..."
+msgstr "Fout! Gekopieerde tekst is verkeerd..."
+
+#: addon/exporter/index.php:29
+msgid "Export"
+msgstr "Exporteer"
+
+#: addon/exporter/index.php:30
+msgid ""
+"You can export your configuration and import it on a Ginger Managed websites!"
+msgstr ""
+"U kunt uw configuratie exporteren en importeren op een Ginger Managed "
+"websites!"
+
+#: addon/exporter/index.php:31
+msgid "Simply copy & paste this code in Import Textarea:"
+msgstr "Kopieer en plak deze code gewoon in Import Textarea:"
+
+#: addon/exporter/index.php:54
+msgid "Import"
+msgstr "Importeer"
+
+#: addon/exporter/index.php:56
+msgid "Upload here the export file to overwrite existing settings!"
+msgstr ""
+"Upload hier het exportbestand om bestaande instellingen te overschrijven!"
+
+#: addon/exporter/index.php:61
+msgid ""
+"Attention: you must define manually a privacy policy page if you are using "
+"{{privacy_policy}} shortcode!"
+msgstr ""
+"Let op: u moet handmatig een privacybeleid pagina definiëren als u "
+"{{privacy_policy}} shortcode gebruikt!"
+
+#: addon/exporter/index.php:63
+msgid "Import Configuration"
+msgstr "Importeer configuratie"
+
+#: addon/jscustom/ginger.jscustom.php:6
+msgid "Custom JS"
+msgstr "Aangepaste JS"
+
+#: addon/jscustom/ginger.jscustom.php:7
+msgid "Custom Iframe"
+msgstr "Aangepaste Iframe"
+
+#: addon/jscustom/ginger.jscustom.php:22 addon/jscustom/ginger.jscustom.php:41
+#: addon/polylang/ginger.polylang.php:38 addon/wpml/ginger.wpml.php:36
+#: admin/ginger.admin.php:72
+msgid "Updated!"
+msgstr "Geupdate!"
+
+#: addon/jscustom/page/ginger-iframe.php:2
+msgid "Custom Iframe Configuration"
+msgstr "Aangepaste Iframe configuratie"
+
+#: addon/jscustom/page/ginger-iframe.php:4
+msgid ""
+"Add here the iframe url that you want to block in relation to user's choice "
+"(if are not included in default ginger setup)"
+msgstr ""
+"Voeg hier de iframe url toe die u wilt blokkeren in relatie tot de keuze van "
+"de gebruiker (indien niet inbegrepen in de standaard Ginger setup)"
+
+#: addon/jscustom/page/ginger-iframe.php:18
+#: addon/jscustom/page/ginger-iframe.php:30
+#: addon/jscustom/page/ginger-jscustom.php:25
+#: addon/jscustom/page/ginger-jscustom.php:38
+msgid "URL"
+msgstr "URL"
+
+#: addon/jscustom/page/ginger-iframe.php:20
+#: addon/jscustom/page/ginger-iframe.php:32
+#: addon/jscustom/page/ginger-jscustom.php:27
+#: addon/jscustom/page/ginger-jscustom.php:40
+msgid "Enable"
+msgstr "Activeren"
+
+#: addon/jscustom/page/ginger-jscustom.php:9
+msgid "Custom Javascript Configuration"
+msgstr "Aangepaste Javascript configuratie"
+
+#: addon/jscustom/page/ginger-jscustom.php:11
+msgid ""
+"Add here the javascript url that you want to block in relation to user's "
+"choice (if are not included in default ginger setup). <br>Mark "
+"<i>asynchronous</i> mode only if standard mode is not working properly!"
+msgstr ""
+"Voeg hier de javascript url toe die u wilt blokkeren in relatie tot de keuze "
+"van de gebruiker (indien niet inbegrepen in de standaard ginger setup). "
+"<br>Markeer <i>asynchrone</i> modus alleen als de standaard modus niet goed "
+"werkt!"
+
+#: addon/jscustom/page/ginger-jscustom.php:28
+#: addon/jscustom/page/ginger-jscustom.php:41
+msgid "Asynchronous mode"
+msgstr "Asynchrone modus"
+
+#: addon/logger/ginger.logger.php:5
+msgid "Activity Logger"
+msgstr "Activiteit Logger"
+
+#: addon/logger/ginger.logger.php:91
+msgid "&laquo;"
+msgstr "&laquo;"
+
+#: addon/logger/ginger.logger.php:92
+msgid "&raquo;"
+msgstr "&raquo;"
+
+#: addon/logger/ginger.logger.php:105
+msgid "Delete all logs"
+msgstr "Verwijder alle logs"
+
+#: addon/logger/ginger.logger.php:111
+msgid "Are you sure? This process cannot be undone."
+msgstr "Weet je het zeker? Dit proces kan niet worden ongedaan gemaakt."
+
+#: addon/polylang/ginger.polylang.php:6
+msgid "Polylang"
+msgstr "Polylang"
+
+#: addon/polylang/ginger.polylang.php:15
+msgid "Polylang not found!"
+msgstr "Polylang niet gevonden!"
+
+#: addon/polylang/ginger.polylang.php:51
+msgid "polylang is disabled!"
+msgstr "Polylang is uitgeschakeld!"
+
+#: addon/polylang/ginger.polylang.php:54 addon/wpml/ginger.wpml.php:52
+msgid "Enable here:"
+msgstr "Hier inschakelen:"
+
+#: addon/polylang/ginger.polylang.php:55 addon/wpml/ginger.wpml.php:53
+msgid "Plugins"
+msgstr "Plugins"
+
+#: addon/polylang/ginger.polylang.php:64 addon/wpml/ginger.wpml.php:62
+msgid "Banner Multilanguage Setup"
+msgstr "Banner meertaligheid setup"
+
+#: addon/polylang/ginger.polylang.php:65 addon/wpml/ginger.wpml.php:63
+msgid "Overwrite default banner rules"
+msgstr "Overschrijf standaard bannerregels"
+
+#: addon/polylang/ginger.polylang.php:93 addon/polylang/ginger.polylang.php:96
+#: addon/wpml/ginger.wpml.php:84 addon/wpml/ginger.wpml.php:87
+#: admin/partial/banner.php:41 admin/partial/banner.php:44
+#: admin/partial/bar.php:20
+msgid "Banner Text"
+msgstr "Banner tekst"
+
+#: addon/polylang/ginger.polylang.php:106 addon/wpml/ginger.wpml.php:95
+#: admin/partial/bar.php:27 admin/partial/dialog.php:24
+msgid ""
+"You can use syntax <code>{{privacy_page}}</code> to link Privacy Police Page "
+"defined in <a href=\"admin.php?page=ginger-setup&tab=policy\">Privacy Policy "
+"Tab</a>"
+msgstr ""
+"U kunt de syntax <code>{{privacy_page}}</code> gebruiken om privacybeleid "
+"pagina te linken gedefineerd in <a href=\"admin.php?page=ginger-"
+"setup&tab=policy\">Privacybeleid Tab</a>"
+
+#: addon/polylang/ginger.polylang.php:114 addon/wpml/ginger.wpml.php:103
+#: admin/partial/policy.php:52
+msgid "Privacy Policy page"
+msgstr "Privacybeleid Pagina"
+
+#: addon/polylang/ginger.polylang.php:136 addon/wpml/ginger.wpml.php:122
+#: admin/partial/policy.php:55
+msgid "Select page"
+msgstr "selecteer pagina"
+
+#: addon/polylang/ginger.polylang.php:158
+#: addon/polylang/ginger.polylang.php:161
+#: addon/polylang/ginger.polylang.php:179 addon/wpml/ginger.wpml.php:144
+#: addon/wpml/ginger.wpml.php:147 addon/wpml/ginger.wpml.php:163
+#: admin/partial/banner.php:59 admin/partial/banner.php:62
+#: admin/partial/banner.php:77
+msgid "Iframe Text"
+msgstr "Iframe tekst"
+
+#: addon/polylang/ginger.polylang.php:176 addon/wpml/ginger.wpml.php:160
+#: admin/partial/banner.php:74
+msgid "Customize your banner buttons"
+msgstr "Banner knoppen aanpassen"
+
+#: addon/polylang/ginger.polylang.php:181 addon/wpml/ginger.wpml.php:165
+#: admin/partial/banner.php:79
+msgid "Accept cookie Button"
+msgstr "Cookie accepteren knop"
+
+#: addon/polylang/ginger.polylang.php:185
+#: addon/polylang/ginger.polylang.php:202 addon/wpml/ginger.wpml.php:169
+#: addon/wpml/ginger.wpml.php:183 admin/partial/banner.php:83
+#: admin/partial/banner.php:97 admin/partial/banner.php:157
+#: admin/partial/banner.php:160 admin/partial/bar.php:47
+#: admin/partial/bar.php:48 admin/partial/dialog.php:51
+#: admin/partial/dialog.php:53
+msgid "Text"
+msgstr "Tekst"
+
+#: addon/polylang/ginger.polylang.php:193 addon/wpml/ginger.wpml.php:174
+#: admin/partial/banner.php:88
+msgid "Accept Cookie"
+msgstr "Accepteer Cookie"
+
+#: addon/polylang/ginger.polylang.php:198 addon/wpml/ginger.wpml.php:179
+#: admin/partial/banner.php:93
+msgid "Disable cookie Button"
+msgstr "Deactiveer cookie knop"
+
+#: addon/polylang/ginger.polylang.php:207 addon/wpml/ginger.wpml.php:188
+#: admin/partial/banner.php:102
+msgid "Disable Cookie"
+msgstr "Cookie uitschakelen"
+
+#: addon/polylang/ginger.polylang.php:211 addon/wpml/ginger.wpml.php:192
+#: admin/partial/banner.php:106
+msgid "Enable:"
+msgstr "Inschakelen:"
+
+#: addon/wpml/ginger.wpml.php:6
+msgid "WPML"
+msgstr "WPML"
+
+#: addon/wpml/ginger.wpml.php:16
+msgid "WPML not found!"
+msgstr "WPML niet gevonden!"
+
+#: addon/wpml/ginger.wpml.php:49
+msgid "WPML is disabled!"
+msgstr "WPML is uitgeschakeld!"
+
+#: admin/ginger.admin.php:49
+msgid ""
+"The page with the specified title already exists and is your current privacy "
+"policy page!"
+msgstr ""
+"De pagina met de gespecificeerde titel bestaat al en is uw huidige "
+"privacybeleid pagina!"
+
+#: admin/ginger.admin.php:89
+msgid "General Configuration"
+msgstr "Algemene Configuratie"
+
+#: admin/ginger.admin.php:90 admin/ginger.utils.php:67
+#: admin/partial/banner.php:5
+msgid "Banner Setup"
+msgstr "Banner Setup"
+
+#: admin/ginger.admin.php:91 admin/ginger.utils.php:75
+msgid "Privacy Policy"
+msgstr "Privacybeleid"
+
+#: admin/ginger.admin.php:93
+msgid "More"
+msgstr "Meer"
+
+#: admin/ginger.pointer.php:39
+msgid "Ginger Cookie Law Settings"
+msgstr "Ginger Cookie Wet Instellingen"
+
+#: admin/ginger.pointer.php:40
+msgid "<b>One more step</b>: you need to enable banner in "
+msgstr "<b>Nog een stap</b>: u moet de banner activeren in "
+
+#: admin/ginger.utils.php:58
+msgid "Configuration"
+msgstr "Configuratie"
+
+#: admin/ginger.utils.php:59
+msgid ""
+"<b>Cache system</b>: with cache radiobutton enabled html output will be the "
+"same for every users, and javascript will be unlocked on document ready. "
+"Without cache parsing is disabled for user that have accepted cookies. "
+msgstr ""
+"<b>Cache-systeem</b>: de HTML-uitgang van de cache-radio knop is hetzelfde "
+"voor elke gebruiker, en javascript wordt op het document geopend. Zonder "
+"cache-parsing is uitgeschakeld voor gebruikers die cookies hebben "
+"geaccepteerd."
+
+#: admin/ginger.utils.php:60
+msgid ""
+"<b>Stress mode</b>: show a small banner for users that have not accepted "
+"cookies."
+msgstr ""
+"<b>Stresmodus</b>: laat een kleine banner zien voor gebruikers die geen "
+"cookies hebben geaccepteerd."
+
+#: admin/ginger.utils.php:68
+msgid ""
+"<b>Banner text</b>: text to show in Ginger banner. {{privacy_page}} "
+"shortcode will be replaced with title and link of privacy policy page, "
+"defined in Provacy Policy Tab."
+msgstr ""
+"<b>Banner tekst</b>: tekst die wordt weergegeven in Ginger banner. "
+"{{Privacy_page}} shortcode wordt vervangen door de titel en de link van de "
+"privacybeleid pagina, gedefinieerd in het tabblad Voorkeurbeleid."
+
+#: admin/ginger.utils.php:69
+msgid ""
+"<b>Iframe text</b>: text to show in substitution of blocked iframe. If you "
+"have a Youtube Embed, this will be replaced by this text until Cookie are "
+"not accepted by users."
+msgstr ""
+"<b>Iframe-tekst</b>: tekst die moet worden weergegeven in plaats van "
+"geblokkeerde iframe. Als u een Youtube-inbedding hebt, wordt dit vervangen "
+"door deze tekst totdat Cookie niet door gebruikers wordt geaccepteerd."
+
+#: admin/ginger.utils.php:70
+msgid ""
+"<b>Custom CSS</b>: override css rules to customize your banner. As example, "
+"to customize font family you can try this: <code>.ginger_banner{font-family: "
+"Arial, Verdana;}</code>"
+msgstr ""
+"<b>Aangepaste CSS</b>: overschrijf css regels om uw banner aan te passen. "
+"Als voorbeeld, om de fontfamilie aan te passen, kunt u dit proberen: <code>."
+"ginger_banner {font-family: Arial, Verdana;}</code>"
+
+#: admin/ginger.utils.php:76
+msgid ""
+"Select here your Privacy Policy page to be linked in substitution of "
+"<code>{{privacy_page}}</code> shortcode inside text banner."
+msgstr ""
+"Selecteer hier uw Privacybeleid pagina om te worden gekoppeld in plaats van "
+"<code>{{privacy_page}}</code> shortcode binnen de tekstbanner."
+
+#: admin/ginger.utils.php:77
+msgid ""
+"You can create here an empty Privacy Policy Page, but remember to add your "
+"text!"
+msgstr ""
+"U kunt hier een lege privacybeleid pagina maken, maar onthoud om uw tekst "
+"toe te voegen!"
+
+#: admin/ginger.utils.php:84
+msgid "For more information:"
+msgstr "Voor meer informatie:"
+
+#: admin/ginger.utils.php:85
+msgid "visit"
+msgstr "bezoek"
+
+#: admin/ginger.utils.php:85
+msgid "Ginger Website"
+msgstr "Ginger website"
+
+#: admin/partial/banner.php:11 admin/partial/banner.php:14
+msgid "Choose Banner Type"
+msgstr "Kies type banner"
+
+#: admin/partial/banner.php:16
+msgid "Bar"
+msgstr "Bar"
+
+#: admin/partial/banner.php:20
+msgid "Dialog"
+msgstr "Venster"
+
+#: admin/partial/banner.php:26 admin/partial/banner.php:29
+msgid "Banner Position"
+msgstr "Banner positie"
+
+#: admin/partial/banner.php:31 admin/partial/bar.php:14
+msgid "Top"
+msgstr "Bovenaan"
+
+#: admin/partial/banner.php:35 admin/partial/bar.php:15
+msgid "Bottom"
+msgstr "Onderaan"
+
+#: admin/partial/banner.php:52
+msgid ""
+"You can use syntax <code><input type=\"text\" value=\"{{privacy_page}}\" "
+"style=\"border:none; width: 160px; text-align:center;\"></code> to link "
+"Privacy Police Page defined in <a href=\"admin.php?page=ginger-"
+"setup&tab=policy\">Privacy Policy Tab</a>"
+msgstr ""
+"U kunt de syntax gebruiken <code><input type=\"text\" value="
+"\"{{privacy_page}}\" style=\"border: none; width: 160px; text-align: center;"
+"\"></code>Pagina gedefinieerd in <a href=\"admin.php?page=ginger-"
+"setup&tab=policy\">tabblad Privacybeleid</a>"
+
+#: admin/partial/banner.php:127 admin/partial/banner.php:130
+msgid "Choose Ginger Theme"
+msgstr "Kies thema"
+
+#: admin/partial/banner.php:132
+msgid "Light Theme"
+msgstr "Licht Thema"
+
+#: admin/partial/banner.php:136
+msgid "Dark Theme"
+msgstr "Donker Thema"
+
+#: admin/partial/banner.php:143
+msgid "Customize your Ginger theme"
+msgstr "Pas uw thema aan"
+
+#: admin/partial/banner.php:147 admin/partial/banner.php:150
+#: admin/partial/bar.php:38 admin/partial/bar.php:39
+#: admin/partial/dialog.php:37 admin/partial/dialog.php:39
+msgid "Background"
+msgstr "Achtergrond"
+
+#: admin/partial/banner.php:168 admin/partial/banner.php:171
+msgid "Button"
+msgstr "Knop"
+
+#: admin/partial/banner.php:178 admin/partial/banner.php:181
+msgid "Button Text Color"
+msgstr "Knop tekst kleur"
+
+#: admin/partial/banner.php:188 admin/partial/banner.php:191
+#: admin/partial/bar.php:56 admin/partial/bar.php:57
+#: admin/partial/dialog.php:64 admin/partial/dialog.php:67
+msgid "Link"
+msgstr "Link"
+
+#: admin/partial/banner.php:199
+msgid "Custom CSS"
+msgstr "Aangepaste CSS"
+
+#: admin/partial/banner.php:203 admin/partial/banner.php:206
+msgid "Insert here your banner custom CSS"
+msgstr "Voeg hier uw aangepaste banner CSS in"
+
+#: admin/partial/bar.php:6
+msgid "Banner Bar Setup"
+msgstr "Banner Setup"
+
+#: admin/partial/bar.php:12 admin/partial/bar.php:13
+msgid "Bar Position"
+msgstr "Banner positie"
+
+#: admin/partial/bar.php:21
+msgid "Bar Text"
+msgstr "Bar tekst"
+
+#: admin/partial/bar.php:33 admin/partial/dialog.php:32
+msgid "Colors"
+msgstr "Kleuren"
+
+#: admin/partial/dialog.php:8
+msgid "Banner Dialog Setup"
+msgstr "Banner Venster Setup"
+
+#: admin/partial/dialog.php:15
+msgid "Dialog Text"
+msgstr "Venster tekst"
+
+#: admin/partial/dialog.php:17 admin/partial/policy.php:22
+#: admin/partial/policy.php:86
+msgid "DialogText"
+msgstr "Venster tekst"
+
+#: admin/partial/general.php:5
+msgid "Ginger is currently"
+msgstr "Ginger is momenteel"
+
+#: admin/partial/general.php:5
+msgid "enabled"
+msgstr "ingeschakeld"
+
+#: admin/partial/general.php:5
+msgid "disabled"
+msgstr "uitgeschakeld"
+
+#: admin/partial/general.php:11 admin/partial/general.php:14
+msgid "Enable Ginger"
+msgstr "Cookies"
+
+#: admin/partial/general.php:17
+msgid "Enabled"
+msgstr "Ingeschakeld"
+
+#: admin/partial/general.php:22
+msgid "Disabled"
+msgstr "Uitgeschakeld"
+
+#: admin/partial/general.php:29 admin/partial/general.php:32
+msgid "Do you have a cache system?"
+msgstr "Heeft u een cache systeem?"
+
+#: admin/partial/general.php:35 admin/partial/general.php:110
+#: admin/partial/general.php:130 admin/partial/general.php:150
+#: admin/partial/general.php:195 admin/partial/policy.php:114
+msgid "Yes"
+msgstr "Ja"
+
+#: admin/partial/general.php:40 admin/partial/general.php:115
+#: admin/partial/general.php:135 admin/partial/general.php:155
+#: admin/partial/general.php:200 admin/partial/policy.php:119
+msgid "No"
+msgstr "Nee"
+
+#: admin/partial/general.php:45
+msgid ""
+"If you have a caching system (W3TC, Varnish, WP Super Cash...) choose YES. "
+"Ginger will optimize websites performances"
+msgstr ""
+"Als u een caching systeem heeft (W3TC, Varnish, WP Super Cash...) kies dan "
+"JA. Ginger optimaliseerd de prestaties van de website."
+
+#: admin/partial/general.php:52 admin/partial/general.php:55
+msgid "Cookie Confirmation Type"
+msgstr "Cookie Bevestigingstype"
+
+#: admin/partial/general.php:58
+msgid "Opt-In"
+msgstr "Opt-In"
+
+#: admin/partial/general.php:61
+msgid "Cookies are disabled until banner is accepted"
+msgstr "Cookies zijn uitgeschakeld totdat de banner is geaccepteerd"
+
+#: admin/partial/general.php:66
+msgid "Opt-Out"
+msgstr "Opt-Out"
+
+#: admin/partial/general.php:69
+msgid "Cookies are disabled only if explicitly requested"
+msgstr "Cookies worden alleen uitgeschakeld als het expliciet word gevraagd"
+
+#: admin/partial/general.php:74
+msgid "Choose OPT-IN if you're in Italy"
+msgstr "Kies OPT-IN als u in Italië gelocaliseerd bent"
+
+#: admin/partial/general.php:82 admin/partial/general.php:86
+msgid "Let scroll to confirm"
+msgstr "Laat gebruiker scrollen om het gebruik van cookies te bevestigen"
+
+#: admin/partial/general.php:90
+msgid "Scroll to accept cookie"
+msgstr "Scroll om cookies te accepteren"
+
+#: admin/partial/general.php:95
+msgid "Keep banner after scroll"
+msgstr "Behoud banner na scrollen"
+
+#: admin/partial/general.php:102 admin/partial/general.php:106
+msgid "Click out of banner to accept cookie"
+msgstr "Klik buiten de banner om cookies te accepteren"
+
+#: admin/partial/general.php:122 admin/partial/general.php:126
+msgid "Force reload page"
+msgstr "Pagina forceren te herladen"
+
+#: admin/partial/general.php:142
+msgid "Stress Mode"
+msgstr "Stress Mode"
+
+#: admin/partial/general.php:146
+msgid "Keep banner until acceptance"
+msgstr "Behoud banner totdat deze is geaccepteerd"
+
+#: admin/partial/general.php:160
+msgid ""
+"If cookies are not accepted the banner will continues to be shown minimized"
+msgstr "Toon cookie banner geminimaliseerd, als cookies niet zijn geaccepteerd"
+
+#: admin/partial/general.php:167
+msgid "Cookies Duration"
+msgstr "Cookie looptijd"
+
+#: admin/partial/general.php:171 admin/partial/general.php:174
+msgid "Select cookies duration"
+msgstr "Selecteer cookie looptijd"
+
+#: admin/partial/general.php:176 admin/partial/general.php:240
+#: admin/partial/general.php:279
+msgid "Select"
+msgstr "Selecteren"
+
+#: admin/partial/general.php:177
+msgid "1 Day"
+msgstr "1 Dag"
+
+#: admin/partial/general.php:178
+msgid "1 Month"
+msgstr "1 Maand"
+
+#: admin/partial/general.php:179
+msgid "1 Year"
+msgstr "1 Jaar"
+
+#: admin/partial/general.php:180
+msgid "For ever"
+msgstr "Voor altijd"
+
+#: admin/partial/general.php:188 admin/partial/general.php:192
+msgid "Disable Ginger for logged users"
+msgstr "Banner uitschakelen voor ingelogde gebruikers"
+
+#: admin/partial/general.php:210
+msgid "Disable Ginger for those pages"
+msgstr "Banner uitschakelen voor deze pagina's"
+
+#: admin/partial/general.php:250
+msgid "Cancella"
+msgstr "Annuleren"
+
+#: admin/partial/general.php:289
+msgid "Delete"
+msgstr "Verwijder"
+
+#: admin/partial/general.php:297
+msgid "+"
+msgstr "+"
+
+#: admin/partial/general.php:300
+msgid "Select pages in which Ginger is disabled"
+msgstr "Selecteer paginas waar de banner moeten worden uitgeschakeld"
+
+#: admin/partial/more.php:1
+msgid "Need More?"
+msgstr "Meer nodig?"
+
+#: admin/partial/more.php:3
+msgid ""
+"If you need help on privacy policy, or other stuff not covered by Ginger, "
+"try Iubenda from this link:"
+msgstr ""
+"Als u hulp nodig hebt op het privacybeleid of andere zaken die niet onder "
+"Ginger vallen, probeer Iubenda uit deze link:"
+
+#: admin/partial/more.php:6
+msgid "You will get a special discount as Ginger user!"
+msgstr "U krijgt een speciale korting als Ginger-gebruiker!"
+
+#: admin/partial/policy.php:5
+msgid "Privacy Policy Setup"
+msgstr "Privacybeleid Setup"
+
+#: admin/partial/policy.php:14
+msgid "Select your privacy policy page"
+msgstr "Selecteer uw privacybeleid pagina"
+
+#: admin/partial/policy.php:67
+msgid "or create your privacy policy page"
+msgstr "of maak uw privacybeleid pagina aan "
+
+#: admin/partial/policy.php:77
+msgid "Title"
+msgstr "Titel"
+
+#: admin/partial/policy.php:81
+msgid "Attention ! There is already a page with this title"
+msgstr "Attentie! Er bestaat al een pagina met deze titel"
+
+#: admin/partial/policy.php:99
+msgid "If you create a new page this will be setted as Privacy Policy Page"
+msgstr ""
+"Als u een nieuwe pagina aanmaakt word dit ingesteld als privacybeleid pagina"
+
+#: admin/partial/policy.php:107
+msgid "Disable Click-out and Scroll to accept cookies in Privacy Policy page"
+msgstr ""
+"Clickout en scroll uitschakelen om cookies te accepteren op privacybeleid "
+"pagina"
+
+#: front/gingerfront.core.php:48
+msgid "Enable Cookies"
+msgstr "Cookies activeren"
+
+#: front/gingerfront.core.php:62
+msgid "Disable Cookies"
+msgstr "Cookies deactiveren"
+
+#~ msgid "Available Add-on"
+#~ msgstr "Beschikbare Add-on"
+
+#~ msgid "Add-on description."
+#~ msgstr "Add-on beschrijving."
+
+#~ msgid "Active add-on"
+#~ msgstr "Actieve add-on"
+
+#~ msgid "Deactivate"
+#~ msgstr "Deactiveren"
+
+#~ msgid "Insert here the add-on activation code."
+#~ msgstr "Voer hier de add-on activatiecode in."
+
+#, fuzzy
+#~ msgid "Insert here your activation mail."
+#~ msgstr "Voer hier uw activatie mail in."
+
+#~ msgid "Activate"
+#~ msgstr "Activeren"
+
+#, fuzzy
+#~ msgid "Privacy Policy Manager"
+#~ msgstr "Privacybeleid Beheerder"
+
+#, fuzzy
+#~ msgid "PPM crea la tua privacy policy page."
+#~ msgstr "oppure crea la tua pagina privacy policy "
+
+#, fuzzy
+#~ msgid "Privacy Policy Default Text"
+#~ msgstr "Privacybeleid Pagina"
+
+#~ msgid "Add your services"
+#~ msgstr "Voeg uw services toe"
+
+#~ msgid "Statistic Services"
+#~ msgstr "Statistische Services"
+
+#~ msgid "Share This text"
+#~ msgstr "Deel deze tekst"
+
+#~ msgid ""
+#~ "This website uses cookies. By continuing to use the site you are agreeing "
+#~ "to its use of cookies."
+#~ msgstr ""
+#~ "Deze website gebruikt cookies. Door gebruik te maken van deze site gaat u "
+#~ "akkoord met het gebruik van cookies."
+
+#~ msgid ""
+#~ "This content has been disabled because you have not accepted cookies."
+#~ msgstr ""
+#~ "Deze inhoud is uitgeschakeld omdat u het gebruik van cookies niet heeft "
+#~ "geaccepteerd."
+
+#~ msgid "YES"
+#~ msgstr "JA"
+
+#~ msgid "NO"
+#~ msgstr "NEE"
+
+#~ msgid "Read More Button"
+#~ msgstr "Lees Meer Knop"
+
+#~ msgid "Read More"
+#~ msgstr "Lees meer"
+
+#, fuzzy
+#~ msgid "Read More Button2"
+#~ msgstr "Button Read More "
+
+#~ msgid "Edit Url"
+#~ msgstr "Url Setup"
+
+#~ msgid "WPML Setup"
+#~ msgstr "WPML Setup"
+
+#~ msgid "About EU Law"
+#~ msgstr "About EU Law"
+
+#~ msgid "Wpml Setup"
+#~ msgstr "Wpml Setup"
