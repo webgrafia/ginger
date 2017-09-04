@@ -14,7 +14,12 @@ function ginger_export(){
         return;
     }
     if(isset($_POST["action"]) && $_POST["action"] == "import"){
+        $nonce = $_REQUEST['_wpnonce'];
+        if ( ! wp_verify_nonce( $nonce, 'save_ginger_export_options' ) ) {
+            exit; // Get out of here, the nonce is rotten!
+        }
         if($newconf = @unserialize(stripslashes($_POST["data"]))) {
+            $newconf = json_decode(json_encode($newconf));
             foreach($newconf as $key => $val){
                 update_option($key, $val);
             }
@@ -55,7 +60,7 @@ function ginger_export(){
 
         <p><?php _e("Upload here the export file to overwrite existing settings!", "ginger"); ?></p>
         <form method="post" action="admin.php?page=<?php echo $_GET["page"]; ?>">
-            <?php wp_nonce_field('save_ginger_export_options', 'ginger_export_options'); ?>
+            <?php wp_nonce_field('save_ginger_export_options'); ?>
             <input type="hidden" name="action" value="import" >
             <textarea name="data" style="width:100%;" rows="10" ></textarea>
             <p>  <small><b><?php _e("Attention: you must define manually a privacy policy page if you are using {{privacy_policy}} shortcode!", "ginger"); ?></b></small></p>

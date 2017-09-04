@@ -124,7 +124,15 @@ function ginger_add_log_variable(){
     <script type="text/javascript">
         var ginger_logger = "Y";
         var ginger_logger_url = "<?php bloginfo("url"); ?>";
-        var current_url = "<?php echo (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]"; ?>";
+        var current_url = "<?php
+            $curl = (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+            if(filter_var($url, FILTER_VALIDATE_URL) === FALSE){
+                $curl = get_bloginfo("url");
+            }else{
+                $curl = $curl;
+            }
+            echo $curl;
+            ?>";
 
         function gingerAjaxLogTime(status) {
             var xmlHttp = new XMLHttpRequest();
@@ -150,7 +158,7 @@ function ginger_add_log_variable(){
             var xmlHttp = new XMLHttpRequest();
             var parameters = "ginger_action=log&time=" + ginger_logtime + "&url=" + current_url + "&status=" + status;
             var url= ginger_logger_url + "?" + parameters;
-            console.log(url);
+            //console.log(url);
             xmlHttp.open("GET", url, true);
 
             //Black magic paragraph
@@ -169,6 +177,9 @@ function ginger_do_log($url = "", $status = "Y"){
     global $wpdb;
     if($url == "")
         $url = (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+    if(filter_var($url, FILTER_VALIDATE_URL) === FALSE){
+        $url = get_bloginfo("url");
+    }
     $table_name = $wpdb->prefix . 'logger_ginger';
     $ipuser = ginger_get_ip_address();
     $now =  current_time( 'mysql' );

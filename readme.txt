@@ -4,7 +4,7 @@ Donate link: http://www.ginger-cookielaw.com/
 Tags: EU Cookie Law, cookie law, block cookie, cookie consent, cookie law, cookie policy, privacy policy, cookie banner, italian cookie law, cookie italia, wpml, polylang
 Requires at least: 3.0.1
 Tested up to: 4.7.3
-Stable tag: 4.1.2
+Stable tag: 4.1.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
