@@ -18,8 +18,8 @@ function ginger_export(){
         if ( ! wp_verify_nonce( $nonce, 'save_ginger_export_options' ) ) {
             exit; // Get out of here, the nonce is rotten!
         }
-        if($newconf = @unserialize(stripslashes($_POST["data"]))) {
-            $newconf = json_decode(json_encode($newconf));
+        if($newconf = json_decode(stripslashes($_POST["data"]), true)) {
+            $newconf = json_decode(json_encode($newconf), true);
             foreach($newconf as $key => $val){
                 update_option($key, $val);
             }
@@ -49,7 +49,7 @@ function ginger_export(){
         $export["ginger_polylang_options"] = get_option('ginger_polylang_options');
         $export["gingeranalytics"] = get_option('gingeranalytics');
         $export["gingeranalytics_option"] = get_option('gingeranalytics_option');
-        echo serialize($export);
+        echo json_encode($export);
         ?></textarea>
 
         <input type="hidden" name="action" value="export">
