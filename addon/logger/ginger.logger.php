@@ -125,13 +125,11 @@ function ginger_add_log_variable(){
         var ginger_logger = "Y";
         var ginger_logger_url = "<?php bloginfo("url"); ?>";
         var current_url = "<?php
-            $curl = (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+            $url = (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
             if(filter_var($url, FILTER_VALIDATE_URL) === FALSE){
-                $curl = get_bloginfo("url");
-            }else{
-                $curl = $curl;
+                $url = get_bloginfo("url");
             }
-            echo $curl;
+            echo $url;
             ?>";
 
         function gingerAjaxLogTime(status) {
