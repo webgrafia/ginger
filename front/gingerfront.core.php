@@ -114,7 +114,7 @@ function __shutdown(){
 
     // We'll need to get the number of ob levels we're in, so that we can iterate over each, collecting
     // that buffer's output into the final output.
-    $levels = count(ob_get_level());
+    $levels = ob_get_level();
 
     for ($i = 0; $i < $levels; $i++){
         $final .= ob_get_clean();
