@@ -9,7 +9,7 @@
     <tbody>
 
     <tr>
-        <th scope="row" style="padding-left:20px;">
+        <th scope="row" style="padding-left:20px;" colspan="2">
             <label>
                 <input name="choice" type="radio" value="page" onclick="javascript:select_privacy_page();" <?php if ($options != "") echo ' checked="checked" '; ?>> <?php _e("Select your privacy policy page", "ginger"); ?>
             </label>
@@ -62,7 +62,7 @@
         </td>
     </tr>
     <tr>
-        <th scope="row" style="padding-left:20px;">
+        <th scope="row" style="padding-left:20px;" colspan="2">
             <label>
                 <input name="choice" type="radio" value="new_page" onclick="javascript:new_privacy_page();"><?php _e("or create your privacy policy page", "ginger"); ?>
             </label>
@@ -105,9 +105,7 @@
     </tr>
     <tr>
         <th scope="row" style="padding-left:20px;"><?php _e("Disable Click-out and Scroll to accept cookies in Privacy Policy page", "ginger"); ?></th>
-    </tr>
-    <tr>
-        <td colspan="2"  style="padding-left:20px;">
+        <td>
             <fieldset>
                 <p>
                     <label>
