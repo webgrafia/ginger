@@ -121,6 +121,26 @@
                 </p>
             </fieldset>
         </td>
+    </tr>
+    <tr>
+        <th scope="row" style="padding-left:20px;"><?php _e("Disable logging of activities and IPs", "ginger"); ?></th>
+        <td>
+            <fieldset>
+                <legend class="screen-reader-text">
+                    <span><?php _e("Disable logging of activities and IPs", "ginger"); ?></span>
+                </legend>
+                <p>
+                    <label>
+                        <input name="ginger_disable_logger" type="radio" value="1" class="tog" <?php if($options_disable_logger == "1") echo ' checked="checked" '; ?>><?php _e("Yes", "ginger"); ?>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input name="ginger_disable_logger" type="radio" value="0" class="tog" <?php if($options_disable_logger == "0") echo ' checked="checked" '; ?>><?php _e("No", "ginger"); ?>
+                    </label>
+                </p>
+            </fieldset>
+        </td>
     </tr>    
     </tbody>
 </table>
