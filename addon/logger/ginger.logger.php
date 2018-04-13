@@ -173,6 +173,10 @@ function ginger_add_log_variable(){
 
 function ginger_do_log($url = "", $status = "Y"){
     global $wpdb;
+
+    $disable_logger = get_option('ginger_policy_disable_logger', false);
+    if($disable_logger) return;
+
     if($url == "")
         $url = (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
     if(filter_var($url, FILTER_VALIDATE_URL) === FALSE){

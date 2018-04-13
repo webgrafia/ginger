@@ -66,6 +66,7 @@ if ($key=='ginger_policy'){
         update_option($key, $privacy_page_id);
     endif;
         update_option($key.'_disable_ginger', $_POST["ginger_privacy_click_scroll"]);
+        update_option($key.'_disable_logger', $_POST["ginger_disable_logger"] == '1');
 
 }else{
     update_option($key, $params);}
@@ -78,6 +79,7 @@ if ($key=='ginger_policy'):
     $options = get_option($key);
     // recupero la option per il disable click out e scroll in privacy policy page
     $options2 = get_option($key.'_disable_ginger');
+    $options_disable_logger = get_option($key.'_disable_logger');
 
 endif;
 ?>

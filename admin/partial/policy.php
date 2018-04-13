@@ -9,7 +9,7 @@
     <tbody>
 
     <tr>
-        <th scope="row" style="padding-left:20px;">
+        <th scope="row" style="padding-left:20px;" colspan="2">
             <label>
                 <input name="choice" type="radio" value="page" onclick="javascript:select_privacy_page();" <?php if ($options != "") echo ' checked="checked" '; ?>> <?php _e("Select your privacy policy page", "ginger"); ?>
             </label>
@@ -62,7 +62,7 @@
         </td>
     </tr>
     <tr>
-        <th scope="row" style="padding-left:20px;">
+        <th scope="row" style="padding-left:20px;" colspan="2">
             <label>
                 <input name="choice" type="radio" value="new_page" onclick="javascript:new_privacy_page();"><?php _e("or create your privacy policy page", "ginger"); ?>
             </label>
@@ -105,9 +105,7 @@
     </tr>
     <tr>
         <th scope="row" style="padding-left:20px;"><?php _e("Disable Click-out and Scroll to accept cookies in Privacy Policy page", "ginger"); ?></th>
-    </tr>
-    <tr>
-        <td colspan="2"  style="padding-left:20px;">
+        <td>
             <fieldset>
                 <p>
                     <label>
@@ -117,6 +115,26 @@
                 <p>
                     <label>
                         <input name="ginger_privacy_click_scroll" type="radio" value="0" class="tog" <?php if($options2 == "0") echo ' checked="checked" '; ?>><?php _e("No", "ginger"); ?>
+                    </label>
+                </p>
+            </fieldset>
+        </td>
+    </tr>
+    <tr>
+        <th scope="row" style="padding-left:20px;"><?php _e("Disable logging of activities and IPs", "ginger"); ?></th>
+        <td>
+            <fieldset>
+                <legend class="screen-reader-text">
+                    <span><?php _e("Disable logging of activities and IPs", "ginger"); ?></span>
+                </legend>
+                <p>
+                    <label>
+                        <input name="ginger_disable_logger" type="radio" value="1" class="tog" <?php if($options_disable_logger == "1") echo ' checked="checked" '; ?>><?php _e("Yes", "ginger"); ?>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input name="ginger_disable_logger" type="radio" value="0" class="tog" <?php if($options_disable_logger == "0") echo ' checked="checked" '; ?>><?php _e("No", "ginger"); ?>
                     </label>
                 </p>
             </fieldset>
