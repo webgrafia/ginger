@@ -3,7 +3,7 @@
 Plugin Name: Ginger - EU Cookie Law
 Plugin URI: http://www.ginger-cookielaw.com/
 Description: Make your website compliant with EU Cookie Policy! Now totally free and unlocked
-Version: 4.1.5
+Version: 4.1.6
 Author: Manafactory
 Author URI: http://manafactory.it/
 License: GPLv2 or later
