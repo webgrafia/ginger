@@ -99,10 +99,14 @@ function ginger_run(){
  
 
     if(isset($option_ginger_general['ginger_opt']) && $option_ginger_general['ginger_opt'] == 'in'):
-
-        ob_start();
-        add_action('shutdown', '__shutdown', 0);
-        add_filter('final_output', 'ginger_parse_dom');
+        if (is_plugin_active('autoptimze/autoptimize') || is_plugin_active('autoptimze-beta/autoptimize')) {
+            add_filter('autoptimize_html_after_minify', 'ginger_parse_dom');
+            add_filter('autoptimize_filter_js_exclude', function($in){return $in.',ginger';});
+        } else {
+            ob_start();
+            add_action('shutdown', '__shutdown', 0);
+            add_filter('final_output', 'ginger_parse_dom');
+        }
     endif;
 }
 add_action('wp', 'ginger_run');
