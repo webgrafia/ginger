@@ -114,6 +114,7 @@ function ginger_wpml_menu_page(){
                                         'offset' => 0,
                                         'post_type' => 'page',
                                         'post_status' => 'publish',
+                                        'posts_per_page' => -1
                                     );
 
                                     $p = new WP_Query( $args );
