@@ -93,9 +93,7 @@ function ginger_run(){
     endif;
 
     if(!(isset($option_ginger_general['enable_ginger']) && $option_ginger_general['enable_ginger'] == 1)) return;
-    if(isset($_COOKIE['ginger-cookie']) && $_COOKIE['ginger-cookie'] == 'Y'):
-        if(isset($option_ginger_general['ginger_cache']) && $option_ginger_general['ginger_cache'] == 'no') return;
-    endif;
+    if(isset($_COOKIE['ginger-cookie']) && $_COOKIE['ginger-cookie'] == 'Y') return;
  
 
     if(isset($option_ginger_general['ginger_opt']) && $option_ginger_general['ginger_opt'] == 'in'):
