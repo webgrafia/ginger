@@ -73,20 +73,16 @@ function ginger_run(){
     if(is_feed()) return;
     $option_ginger_general = get_option('ginger_general');
     if(isset($option_ginger_general['ginger_logged_users']) && $option_ginger_general['ginger_logged_users']=='1' && is_user_logged_in()) return;
+
+    $id_current=get_the_id();
+
     if((isset($option_ginger_general['pagine_escluse'])) && (!empty($option_ginger_general['pagine_escluse']))):
-
         $pagine=array();
-
-
-
         foreach ($option_ginger_general['pagine_escluse'] as $array_pagine):
-
-
             $pagine[] = $array_pagine['select-input'];
-           // $pagine=array_push($pagine, $array_pagine['select-input']);
+            // $pagine=array_push($pagine, $array_pagine['select-input']);
         endforeach;
-        $id_current=get_the_id();
-        if (in_array($id_current, $pagine)):
+        if ($id_current && in_array($id_current, $pagine)):
             return;
         endif;
 
@@ -96,7 +92,6 @@ function ginger_run(){
     if(isset($_COOKIE['ginger-cookie']) && $_COOKIE['ginger-cookie'] == 'Y'):
         if(isset($option_ginger_general['ginger_cache']) && $option_ginger_general['ginger_cache'] == 'no') return;
     endif;
- 
 
     if(isset($option_ginger_general['ginger_opt']) && $option_ginger_general['ginger_opt'] == 'in'):
         if (is_plugin_active('autoptimze/autoptimize') || is_plugin_active('autoptimze-beta/autoptimize')) {
@@ -132,7 +127,6 @@ function __shutdown(){
 
 
 function ginger_parse_dom($output){
-
     $ginger_script_tags = array(
         'platform.twitter.com/widgets.js',
         'apis.google.com/js/plusone.js',
@@ -174,6 +168,16 @@ function ginger_parse_dom($output){
     libxml_use_internal_errors(true);
     $doc = new DOMDocument();
     $doc->encoding = 'utf-8';
+    $scripts = [];
+    preg_match_all("/<script ?.*>(.*)<\/script>/sU", $output, $matches);
+    if(is_array($matches)) {
+        foreach($matches[0] as $key => $value){
+            if(strpos($value, "text/template") !== false) {
+                $scripts["script_".$key] = $value;
+                $output = str_replace($value, "script_".$key, $output);
+            }
+        }
+    }
     $doc->loadHTML(mb_convert_encoding($output, 'HTML-ENTITIES', 'UTF-8'));
     // get all the script tags
     $script_tags = $doc->getElementsByTagName('script');
@@ -241,6 +245,10 @@ function ginger_parse_dom($output){
     // get the HTML string back
     $output = $doc->saveHTML();
     libxml_use_internal_errors(false);
+
+    foreach($scripts as $key => $value) {
+        $output = str_replace($key, $value, $output);
+    }
     return $output;
 }
 

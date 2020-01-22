@@ -74,24 +74,17 @@ function ginger_script(){ ?>
     $id_privacy_policy = get_option('ginger_policy');
     $id_current=get_the_id();
 
-
     if((isset($option_ginger_general['pagine_escluse'])) && (!empty($option_ginger_general['pagine_escluse']))):
-
         $pagine=array();
-
-
-
         foreach ($option_ginger_general['pagine_escluse'] as $array_pagine):
-
-
             $pagine[] = $array_pagine['select-input'];
            // $pagine=array_push($pagine, $array_pagine['select-input']);
         endforeach;
-        if (in_array($id_current, $pagine)):
+        if ($id_current && in_array($id_current, $pagine)):
             return;
         endif;
-
     endif;
+
     if(isset($option_ginger_general['ginger_logged_users']) && $option_ginger_general['ginger_logged_users']=='1' && is_user_logged_in()) return;
     $option_ginger_bar = get_option('ginger_banner');
     if($option_ginger_general['enable_ginger'] != 1) return;
