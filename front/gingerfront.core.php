@@ -71,7 +71,21 @@ endif;
 //Ginger Start
 function ginger_run(){
     if(is_feed()) return;
+    
     $option_ginger_general = get_option('ginger_general');
+    
+    //add class to body
+    if(isset($_COOKIE['ginger-cookie']) && $_COOKIE['ginger-cookie'] == 'Y' || 
+      (isset($option_ginger_general['ginger_logged_users']) && $option_ginger_general['ginger_logged_users']=='1' && is_user_logged_in())):
+		add_filter( 'body_class', function( $classes ) {
+		   return array_merge( $classes, array( 'ginger-cookie-enabled' ) );
+		} );
+    else:
+    	add_filter( 'body_class', function( $classes ) {
+		   return array_merge( $classes, array( 'ginger-cookie-disabled' ) );
+		} );
+    endif;
+    
     if(isset($option_ginger_general['ginger_logged_users']) && $option_ginger_general['ginger_logged_users']=='1' && is_user_logged_in()) return;
 
     $id_current=get_the_id();
