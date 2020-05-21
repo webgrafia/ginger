@@ -94,7 +94,10 @@ function ginger_run(){
     endif;
 
     if(isset($option_ginger_general['ginger_opt']) && $option_ginger_general['ginger_opt'] == 'in'):
-        if (is_plugin_active('autoptimze/autoptimize') || is_plugin_active('autoptimze-beta/autoptimize')) {
+        if ( ! function_exists( 'is_plugin_active' ) ) {
+            require_once ABSPATH . 'wp-admin/includes/plugin.php';
+        }
+        if ( function_exists( 'is_plugin_active' ) && ( is_plugin_active('autoptimize/autoptimize.php') || is_plugin_active('autoptimize-beta/autoptimize.php') ) ) {
             add_filter('autoptimize_html_after_minify', 'ginger_parse_dom');
             add_filter('autoptimize_filter_js_exclude', function($in){return $in.',ginger';});
         } else {
